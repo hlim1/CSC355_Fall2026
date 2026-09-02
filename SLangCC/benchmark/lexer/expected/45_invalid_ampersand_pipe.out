@@ -1,0 +1,14 @@
+Lexer error in 45_invalid_ampersand_pipe.sl at line 1: illegal character '&'
+Lexer error in 45_invalid_ampersand_pipe.sl at line 1: illegal character '|'
+&& (T_AND)
+|| (T_OR)
+&& (T_AND)
+Lexer error in 45_invalid_ampersand_pipe.sl at line 1: illegal character '&'
+|| (T_OR)
+Lexer error in 45_invalid_ampersand_pipe.sl at line 1: illegal character '|'
+a (T_ID)
+Lexer error in 45_invalid_ampersand_pipe.sl at line 1: illegal character '&'
+b (T_ID)
+a (T_ID)
+Lexer error in 45_invalid_ampersand_pipe.sl at line 1: illegal character '|'
+b (T_ID)

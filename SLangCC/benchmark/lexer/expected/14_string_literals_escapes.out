@@ -1,0 +1,6 @@
+"line\n" (T_STRING_LITERAL)
+"tab\t" (T_STRING_LITERAL)
+"quote\"inside" (T_STRING_LITERAL)
+"backslash\\inside" (T_STRING_LITERAL)
+"single\'inside" (T_STRING_LITERAL)
+"any\qescape" (T_STRING_LITERAL)

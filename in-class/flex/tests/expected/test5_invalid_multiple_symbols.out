@@ -1,0 +1,16 @@
+int (T_INT)
+x (T_ID)
+= (T_ASSIGN)
+3 (T_INT_LITERAL)
+; (T_SEMICOLON)
+x (T_ID)
+= (T_ASSIGN)
+x (T_ID)
+Lexer error on line 2: illegal character '$'
+2 (T_INT_LITERAL)
+; (T_SEMICOLON)
+return (T_RETURN)
+x (T_ID)
+Lexer error on line 3: illegal character '?'
+0 (T_INT_LITERAL)
+; (T_SEMICOLON)

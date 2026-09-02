@@ -1,0 +1,10 @@
+int (T_INT)
+x (T_ID)
+; (T_SEMICOLON)
+Lexer error in 35_windows_line_endings.sl at line 1: illegal character ''
+print (T_PRINT)
+( (T_LPAREN)
+x (T_ID)
+) (T_RPAREN)
+; (T_SEMICOLON)
+Lexer error in 35_windows_line_endings.sl at line 2: illegal character ''

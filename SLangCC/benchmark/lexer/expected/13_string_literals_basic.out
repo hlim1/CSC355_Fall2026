@@ -1,0 +1,5 @@
+"" (T_STRING_LITERAL)
+"hello" (T_STRING_LITERAL)
+"hello world" (T_STRING_LITERAL)
+"123" (T_STRING_LITERAL)
+"symbols += == && {} []" (T_STRING_LITERAL)

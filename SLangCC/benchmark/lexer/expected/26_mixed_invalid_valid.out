@@ -1,0 +1,18 @@
+int (T_INT)
+x (T_ID)
+= (T_ASSIGN)
+10 (T_INT_LITERAL)
+Lexer error in 26_mixed_invalid_valid.sl at line 1: illegal character '@'
+20 (T_INT_LITERAL)
+; (T_SEMICOLON)
+print (T_PRINT)
+( (T_LPAREN)
+"ok" (T_STRING_LITERAL)
+) (T_RPAREN)
+; (T_SEMICOLON)
+y (T_ID)
+= (T_ASSIGN)
+x (T_ID)
+Lexer error in 26_mixed_invalid_valid.sl at line 3: illegal character '$'
+3 (T_INT_LITERAL)
+; (T_SEMICOLON)

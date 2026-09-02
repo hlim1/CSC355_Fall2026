@@ -1,0 +1,8 @@
+'' (T_CHARACTER_LITERAL)
+Lexer error in 17_character_literal_errors.sl at line 1: illegal character '''
+ab (T_ID)
+' ' (T_CHARACTER_LITERAL)
+unterminated (T_ID)
+Lexer error in 17_character_literal_errors.sl at line 2: illegal character '''
+newline (T_ID)
+Lexer error in 17_character_literal_errors.sl at line 3: illegal character '''

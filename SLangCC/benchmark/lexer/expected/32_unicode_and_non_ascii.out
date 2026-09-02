@@ -1,0 +1,20 @@
+Lexer error in 32_unicode_and_non_ascii.sl at line 1: illegal character 'œ'
+Lexer error in 32_unicode_and_non_ascii.sl at line 1: illegal character 'Ä'
+caf (T_ID)
+Lexer error in 32_unicode_and_non_ascii.sl at line 1: illegal character '√'
+Lexer error in 32_unicode_and_non_ascii.sl at line 1: illegal character '©'
+na (T_ID)
+Lexer error in 32_unicode_and_non_ascii.sl at line 1: illegal character '√'
+Lexer error in 32_unicode_and_non_ascii.sl at line 1: illegal character 'Ø'
+ve (T_ID)
+Lexer error in 32_unicode_and_non_ascii.sl at line 1: illegal character 'Â'
+Lexer error in 32_unicode_and_non_ascii.sl at line 1: illegal character 'è'
+Lexer error in 32_unicode_and_non_ascii.sl at line 1: illegal character 'ò'
+Lexer error in 32_unicode_and_non_ascii.sl at line 1: illegal character 'È'
+Lexer error in 32_unicode_and_non_ascii.sl at line 1: illegal character 'á'
+Lexer error in 32_unicode_and_non_ascii.sl at line 1: illegal character 'è'
+"unicode string œÄ" (T_STRING_LITERAL)
+Lexer error in 32_unicode_and_non_ascii.sl at line 1: illegal character '''
+Lexer error in 32_unicode_and_non_ascii.sl at line 1: illegal character 'œ'
+Lexer error in 32_unicode_and_non_ascii.sl at line 1: illegal character 'Ä'
+Lexer error in 32_unicode_and_non_ascii.sl at line 1: illegal character '''

@@ -1,0 +1,12 @@
+void (T_VOID)
+main (T_ID)
+( (T_LPAREN)
+) (T_RPAREN)
+{ (T_LBRACE)
+int (T_INT)
+value (T_ID)
+= (T_ASSIGN)
+1 (T_INT_LITERAL)
+; (T_SEMICOLON)
+Lexer error in 52_illegal_multiline_comment_unclosed.sl at line 4: illegal character '@'
+} (T_RBRACE)

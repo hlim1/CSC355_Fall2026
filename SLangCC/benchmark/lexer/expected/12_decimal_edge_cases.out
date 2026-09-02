@@ -1,0 +1,15 @@
+Lexer error in 12_decimal_edge_cases.sl at line 1: illegal character '.'
+5 (T_INT_LITERAL)
+5 (T_INT_LITERAL)
+Lexer error in 12_decimal_edge_cases.sl at line 1: illegal character '.'
+1 (T_INT_LITERAL)
+Lexer error in 12_decimal_edge_cases.sl at line 1: illegal character '.'
+Lexer error in 12_decimal_edge_cases.sl at line 1: illegal character '.'
+2 (T_INT_LITERAL)
+10.20 (T_DECIMAL_LITERAL)
+Lexer error in 12_decimal_edge_cases.sl at line 1: illegal character '.'
+30 (T_INT_LITERAL)
+0 (T_INT_LITERAL)
+Lexer error in 12_decimal_edge_cases.sl at line 1: illegal character '.'
+Lexer error in 12_decimal_edge_cases.sl at line 1: illegal character '.'
+0 (T_INT_LITERAL)

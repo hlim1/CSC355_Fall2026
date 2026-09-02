@@ -1,0 +1,11 @@
+object (T_ID)
+Lexer error in 30_dots_and_numbers.sl at line 1: illegal character '.'
+field (T_ID)
+1.2 (T_DECIMAL_LITERAL)
+1 (T_INT_LITERAL)
+Lexer error in 30_dots_and_numbers.sl at line 3: illegal character '.'
+Lexer error in 30_dots_and_numbers.sl at line 3: illegal character '.'
+2 (T_INT_LITERAL)
+Lexer error in 30_dots_and_numbers.sl at line 4: illegal character '.'
+Lexer error in 30_dots_and_numbers.sl at line 4: illegal character '.'
+Lexer error in 30_dots_and_numbers.sl at line 4: illegal character '.'

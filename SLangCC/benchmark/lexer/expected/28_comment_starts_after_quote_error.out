@@ -1,0 +1,6 @@
+Lexer error in 28_comment_starts_after_quote_error.sl at line 1: illegal character '"'
+unterminated (T_ID)
+x (T_ID)
+= (T_ASSIGN)
+1 (T_INT_LITERAL)
+; (T_SEMICOLON)

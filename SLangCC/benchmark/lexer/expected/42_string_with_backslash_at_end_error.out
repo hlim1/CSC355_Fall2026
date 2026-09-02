@@ -1,0 +1,3 @@
+Lexer error in 42_string_with_backslash_at_end_error.sl at line 1: illegal character '"'
+abc (T_ID)
+Lexer error in 42_string_with_backslash_at_end_error.sl at line 1: illegal character '\'

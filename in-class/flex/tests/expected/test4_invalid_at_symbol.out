@@ -1,0 +1,11 @@
+int (T_INT)
+count (T_ID)
+= (T_ASSIGN)
+12 (T_INT_LITERAL)
+; (T_SEMICOLON)
+count (T_ID)
+= (T_ASSIGN)
+count (T_ID)
+Lexer error on line 2: illegal character '@'
+4 (T_INT_LITERAL)
+; (T_SEMICOLON)

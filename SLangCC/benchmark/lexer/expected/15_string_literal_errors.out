@@ -1,0 +1,10 @@
+Lexer error in 15_string_literal_errors.sl at line 1: illegal character '"'
+unterminated (T_ID)
+string (T_STRING)
+Lexer error in 15_string_literal_errors.sl at line 2: illegal character '"'
+contains (T_ID)
+newline (T_ID)
+Lexer error in 15_string_literal_errors.sl at line 3: illegal character '"'
+Lexer error in 15_string_literal_errors.sl at line 4: illegal character '"'
+bad (T_ID)
+end (T_ID)

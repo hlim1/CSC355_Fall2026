@@ -1,0 +1,6 @@
+Lexer error in 25_illegal_characters.sl at line 1: illegal character '@'
+Lexer error in 25_illegal_characters.sl at line 1: illegal character '$'
+Lexer error in 25_illegal_characters.sl at line 1: illegal character ':'
+Lexer error in 25_illegal_characters.sl at line 1: illegal character '?'
+Lexer error in 25_illegal_characters.sl at line 1: illegal character '`'
+Lexer error in 25_illegal_characters.sl at line 1: illegal character '~'

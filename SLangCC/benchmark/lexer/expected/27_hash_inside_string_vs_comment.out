@@ -1,0 +1,6 @@
+"# not a comment" (T_STRING_LITERAL)
+print (T_PRINT)
+( (T_LPAREN)
+"value # still string" (T_STRING_LITERAL)
+) (T_RPAREN)
+; (T_SEMICOLON)
