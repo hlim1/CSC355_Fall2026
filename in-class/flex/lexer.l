@@ -14,7 +14,12 @@ void error() {
 
 /* ---------- Regular definitions ---------- */
 
+DIGIT       [0-9]
+
 %%
+
+"int"           { return T_INT; }
+"if"            { return T_IF; }
 
     /* Whitespace */
 {WHITESPACE}    ; /* Ignore */
