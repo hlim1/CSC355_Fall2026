@@ -14,9 +14,6 @@ void error() {
 
 /* ---------- Regular definitions ---------- */
 
-/* Enable current input line tracker variable. Flex automatically increments */
-%option yylineno
-
 %%
 
     /* Whitespace */
