@@ -17,7 +17,6 @@ Every constructor requires the source line:
 ```cpp
 Node(kind, line)
 Node(kind, std::stringValue, line)
-Node(kind, cStringValue, line)
 Node(kind, intValue, line)
 Node(kind, doubleValue, line)
 Node(kind, charValue, line)
@@ -28,9 +27,10 @@ Node(kind, left, right, line)
 Node(kind, a, b, c, line)
 ```
 
-The `const char*` overload ensures literals such as `"+"` use string
-storage rather than the `bool` overload. Child constructors use
-`addChild()`, which ignores `nullptr` and returns the parent for chaining.
+Use `std::string` explicitly for string payloads such as `"+"`, because the
+class has no `const char*` constructor and a string literal can otherwise
+select a different overload through implicit conversion. Child constructors
+use `addChild()`, which ignores `nullptr` and returns the parent for chaining.
 
 Use `getValueType()` before the typed payload getters
 (`getStringValue()`, `getIntValue()`, `getDoubleValue()`,
@@ -92,7 +92,10 @@ Child order is part of the AST contract.
 | `Initializer` | none | expression |
 | `InitializationList` | none | one or more expressions |
 
-Scalar declarations currently require an initializer. Only one array
+Scalar declarations are intended to require an initializer: the benchmark
+labels a missing initializer as illegal. However, the grammar currently has an
+empty `init_var` alternative, while semantic analysis treats the resulting
+initializer-less `Declarator` as an internal error and aborts. Only one array
 declarator is allowed per declaration; its initialization list is optional.
 
 ### Blocks, statements, and control flow
