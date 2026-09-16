@@ -29,7 +29,7 @@ Before copying the parser-phase files, commit or back up your existing work. Ext
 For example, from the course repository's `SLangCC` directory, copy its contents as follows:
 
 ```sh
-cp -R <path>/<to>/<course directory>/SLangCC/phase_parser/* <path>/<to>/<student directory>/SLangCC/
+cp -R <path>/<to>/<course directory>/SLangCC/* <path>/<to>/<student directory>/SLangCC/
 ```
 
 `-R` option recursively copies the source directory and all of its contents to the destination directory.
@@ -330,13 +330,17 @@ The parser must build without new Bison conflicts, accept every legal parser ben
 
 ## Tests
 
-From the `lexer/lexer` directory, build the standalone lexer:
+From the `parser` directory, build the parser and its generated lexer:
 
 ```bash
+cd parser
 make
 ```
 
-A successful build creates the `parser/parser` executable. If compilation fails, read the first reported error, correct your rules or actions in `parser/parser.y`, and rebuild.
+A successful build creates the `parser/parser` executable. The parser build
+generates the Bison parser and Flex scanner from `parser/parser.y` and
+`lexer/lexer.l`. If compilation fails, read the first reported error, correct
+your rules or actions in `parser/parser.y`, and rebuild.
 
 The parser test inputs are located in `benchmark/parser/`. To run one test and print its tokens or diagnostics in the terminal, pass the source-file path to the executable:
 
@@ -349,6 +353,7 @@ When parsing succeeds, the parser writes the abstract syntax tree (AST) to a JSO
 To run the complete local test suite, enter the benchmark directory and execute its test script:
 
 ```bash
+cd ..
 cd benchmark/parser
 ./test.sh
 ```
