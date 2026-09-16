@@ -1,0 +1,1 @@
+Syntax error in 76_illegal_postfix_increment_call_target.sl at line 5: syntax error, unexpected T_INCREMENT, expecting T_SEMICOLON

@@ -1,0 +1,139 @@
+{
+  "kind": "Program",
+  "sourceFile": "105_legal_if_statement.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "1",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "1",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "2",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "2",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "2",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "2",
+                              "name": "value",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "2",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "2",
+                                      "value": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "IfStatement",
+                      "sourceLine": "4",
+                      "children": [
+                        {
+                          "kind": "BinaryOp",
+                          "sourceLine": "4",
+                          "value": "<",
+                          "children": [
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "4",
+                              "name": "value"
+                            },
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "4",
+                              "value": 2
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "Block",
+                          "sourceLine": "4",
+                          "children": [
+                            {
+                              "kind": "StatementList",
+                              "sourceLine": "4",
+                              "children": [
+                                {
+                                  "kind": "Assignment",
+                                  "sourceLine": "5",
+                                  "children": [
+                                    {
+                                      "kind": "Identifier",
+                                      "sourceLine": "5",
+                                      "name": "value"
+                                    },
+                                    {
+                                      "kind": "BinaryOp",
+                                      "sourceLine": "5",
+                                      "value": "+",
+                                      "children": [
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "5",
+                                          "name": "value"
+                                        },
+                                        {
+                                          "kind": "IntLiteral",
+                                          "sourceLine": "5",
+                                          "value": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

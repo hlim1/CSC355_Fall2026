@@ -1,0 +1,1 @@
+Syntax error in 73_illegal_prefix_decrement_literal_target.sl at line 2: syntax error, unexpected T_INT_LITERAL, expecting T_ID or T_LPAREN

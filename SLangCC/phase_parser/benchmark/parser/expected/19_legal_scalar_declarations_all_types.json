@@ -1,0 +1,253 @@
+{
+  "kind": "Program",
+  "sourceFile": "19_legal_scalar_declarations_all_types.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "1",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "1",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "2",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "2",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "2",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "2",
+                              "name": "count",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "2",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "2",
+                                      "value": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "3",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "3",
+                          "value": "double"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "3",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "3",
+                              "name": "ratio",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "3",
+                                  "children": [
+                                    {
+                                      "kind": "DecimalLiteral",
+                                      "sourceLine": "3",
+                                      "value": 2.5
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "4",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "4",
+                          "value": "boolean"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "4",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "4",
+                              "name": "ready",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "4",
+                                  "children": [
+                                    {
+                                      "kind": "BooleanLiteral",
+                                      "sourceLine": "4",
+                                      "value": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "5",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "5",
+                          "value": "character"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "5",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "5",
+                              "name": "mark",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "5",
+                                  "children": [
+                                    {
+                                      "kind": "CharacterLiteral",
+                                      "sourceLine": "5",
+                                      "value": "\n"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "6",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "6",
+                          "value": "string"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "6",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "6",
+                              "name": "message",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "6",
+                                  "children": [
+                                    {
+                                      "kind": "StringLiteral",
+                                      "sourceLine": "6",
+                                      "value": "hello"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "PrintStatement",
+                      "sourceLine": "8",
+                      "children": [
+                        {
+                          "kind": "ArgumentList",
+                          "sourceLine": "8",
+                          "children": [
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "8",
+                              "name": "count"
+                            },
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "8",
+                              "name": "ratio"
+                            },
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "8",
+                              "name": "ready"
+                            },
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "8",
+                              "name": "mark"
+                            },
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "8",
+                              "name": "message"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

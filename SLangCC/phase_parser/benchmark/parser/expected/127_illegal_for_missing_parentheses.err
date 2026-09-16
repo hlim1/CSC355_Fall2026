@@ -1,0 +1,1 @@
+Syntax error in 127_illegal_for_missing_parentheses.sl at line 2: syntax error, unexpected T_INT, expecting T_LPAREN

@@ -1,0 +1,1 @@
+Syntax error in 128_illegal_for_missing_first_semicolon.sl at line 2: syntax error, unexpected T_ID, expecting T_SEMICOLON

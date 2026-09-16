@@ -1,0 +1,1 @@
+Syntax error in 41_illegal_array_initializer_missing_braces.sl at line 2: syntax error, unexpected T_INT_LITERAL, expecting T_LBRACE

@@ -1,0 +1,192 @@
+{
+  "kind": "Program",
+  "sourceFile": "86_legal_function_call_expression.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "add",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "int"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1",
+              "children": [
+                {
+                  "kind": "Parameter",
+                  "sourceLine": "1",
+                  "name": "left",
+                  "children": [
+                    {
+                      "kind": "Type",
+                      "sourceLine": "1",
+                      "value": "int"
+                    }
+                  ]
+                },
+                {
+                  "kind": "Parameter",
+                  "sourceLine": "1",
+                  "name": "right",
+                  "children": [
+                    {
+                      "kind": "Type",
+                      "sourceLine": "1",
+                      "value": "int"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "1",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "1",
+                  "children": [
+                    {
+                      "kind": "ReturnStatement",
+                      "sourceLine": "2",
+                      "children": [
+                        {
+                          "kind": "BinaryOp",
+                          "sourceLine": "2",
+                          "value": "+",
+                          "children": [
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "2",
+                              "name": "left"
+                            },
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "2",
+                              "name": "right"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "5",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "5",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "5"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "5",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "5",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "6",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "6",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "6",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "6",
+                              "name": "result",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "6",
+                                  "children": [
+                                    {
+                                      "kind": "CallStatement",
+                                      "sourceLine": "6",
+                                      "children": [
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "6",
+                                          "name": "add"
+                                        },
+                                        {
+                                          "kind": "ArgumentList",
+                                          "sourceLine": "6",
+                                          "children": [
+                                            {
+                                              "kind": "IntLiteral",
+                                              "sourceLine": "6",
+                                              "value": 1
+                                            },
+                                            {
+                                              "kind": "IntLiteral",
+                                              "sourceLine": "6",
+                                              "value": 2
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "PrintStatement",
+                      "sourceLine": "7",
+                      "children": [
+                        {
+                          "kind": "ArgumentList",
+                          "sourceLine": "7",
+                          "children": [
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "7",
+                              "name": "result"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

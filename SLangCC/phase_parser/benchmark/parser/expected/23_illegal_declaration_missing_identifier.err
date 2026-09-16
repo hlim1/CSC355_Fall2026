@@ -1,0 +1,1 @@
+Syntax error in 23_illegal_declaration_missing_identifier.sl at line 2: syntax error, unexpected T_ASSIGN, expecting T_ID

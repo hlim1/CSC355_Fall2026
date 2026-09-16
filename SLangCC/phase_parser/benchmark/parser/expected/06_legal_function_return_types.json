@@ -1,0 +1,240 @@
+{
+  "kind": "Program",
+  "sourceFile": "06_legal_function_return_types.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "makeInt",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "int"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "1",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "1",
+                  "children": [
+                    {
+                      "kind": "ReturnStatement",
+                      "sourceLine": "2",
+                      "children": [
+                        {
+                          "kind": "IntLiteral",
+                          "sourceLine": "2",
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "5",
+          "name": "makeDouble",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "5",
+              "value": "double"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "5"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "5",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "5",
+                  "children": [
+                    {
+                      "kind": "ReturnStatement",
+                      "sourceLine": "6",
+                      "children": [
+                        {
+                          "kind": "DecimalLiteral",
+                          "sourceLine": "6",
+                          "value": 1.5
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "9",
+          "name": "makeBoolean",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "9",
+              "value": "boolean"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "9"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "9",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "9",
+                  "children": [
+                    {
+                      "kind": "ReturnStatement",
+                      "sourceLine": "10",
+                      "children": [
+                        {
+                          "kind": "BooleanLiteral",
+                          "sourceLine": "10",
+                          "value": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "13",
+          "name": "makeCharacter",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "13",
+              "value": "character"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "13"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "13",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "13",
+                  "children": [
+                    {
+                      "kind": "ReturnStatement",
+                      "sourceLine": "14",
+                      "children": [
+                        {
+                          "kind": "CharacterLiteral",
+                          "sourceLine": "14",
+                          "value": "x"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "17",
+          "name": "makeString",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "17",
+              "value": "string"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "17"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "17",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "17",
+                  "children": [
+                    {
+                      "kind": "ReturnStatement",
+                      "sourceLine": "18",
+                      "children": [
+                        {
+                          "kind": "StringLiteral",
+                          "sourceLine": "18",
+                          "value": "ok"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "21",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "21",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "21"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "21",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "21",
+                  "children": [
+                    {
+                      "kind": "ReturnStatement",
+                      "sourceLine": "22"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

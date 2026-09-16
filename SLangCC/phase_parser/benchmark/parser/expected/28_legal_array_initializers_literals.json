@@ -1,0 +1,338 @@
+{
+  "kind": "Program",
+  "sourceFile": "28_legal_array_initializers_literals.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "1",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "1",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "2",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "2",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "ArrayDeclarator",
+                          "sourceLine": "2",
+                          "name": "numbers",
+                          "children": [
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "2",
+                              "value": 3
+                            },
+                            {
+                              "kind": "InitializationList",
+                              "sourceLine": "2",
+                              "children": [
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "2",
+                                  "value": 1
+                                },
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "2",
+                                  "value": 2
+                                },
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "2",
+                                  "value": 3
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "3",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "3",
+                          "value": "double"
+                        },
+                        {
+                          "kind": "ArrayDeclarator",
+                          "sourceLine": "3",
+                          "name": "ratios",
+                          "children": [
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "3",
+                              "value": 2
+                            },
+                            {
+                              "kind": "InitializationList",
+                              "sourceLine": "3",
+                              "children": [
+                                {
+                                  "kind": "DecimalLiteral",
+                                  "sourceLine": "3",
+                                  "value": 1.5
+                                },
+                                {
+                                  "kind": "DecimalLiteral",
+                                  "sourceLine": "3",
+                                  "value": 2.5
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "4",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "4",
+                          "value": "boolean"
+                        },
+                        {
+                          "kind": "ArrayDeclarator",
+                          "sourceLine": "4",
+                          "name": "flags",
+                          "children": [
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "4",
+                              "value": 2
+                            },
+                            {
+                              "kind": "InitializationList",
+                              "sourceLine": "4",
+                              "children": [
+                                {
+                                  "kind": "BooleanLiteral",
+                                  "sourceLine": "4",
+                                  "value": true
+                                },
+                                {
+                                  "kind": "BooleanLiteral",
+                                  "sourceLine": "4",
+                                  "value": false
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "5",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "5",
+                          "value": "character"
+                        },
+                        {
+                          "kind": "ArrayDeclarator",
+                          "sourceLine": "5",
+                          "name": "marks",
+                          "children": [
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "5",
+                              "value": 3
+                            },
+                            {
+                              "kind": "InitializationList",
+                              "sourceLine": "5",
+                              "children": [
+                                {
+                                  "kind": "CharacterLiteral",
+                                  "sourceLine": "5",
+                                  "value": "a"
+                                },
+                                {
+                                  "kind": "CharacterLiteral",
+                                  "sourceLine": "5",
+                                  "value": "\t"
+                                },
+                                {
+                                  "kind": "CharacterLiteral",
+                                  "sourceLine": "5",
+                                  "value": "'"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "6",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "6",
+                          "value": "string"
+                        },
+                        {
+                          "kind": "ArrayDeclarator",
+                          "sourceLine": "6",
+                          "name": "words",
+                          "children": [
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "6",
+                              "value": 2
+                            },
+                            {
+                              "kind": "InitializationList",
+                              "sourceLine": "6",
+                              "children": [
+                                {
+                                  "kind": "StringLiteral",
+                                  "sourceLine": "6",
+                                  "value": "left"
+                                },
+                                {
+                                  "kind": "StringLiteral",
+                                  "sourceLine": "6",
+                                  "value": "right"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "PrintStatement",
+                      "sourceLine": "8",
+                      "children": [
+                        {
+                          "kind": "ArgumentList",
+                          "sourceLine": "8",
+                          "children": [
+                            {
+                              "kind": "ArrayAccess",
+                              "sourceLine": "8",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "8",
+                                  "name": "numbers"
+                                },
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "8",
+                                  "value": 0
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "ArrayAccess",
+                              "sourceLine": "8",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "8",
+                                  "name": "ratios"
+                                },
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "8",
+                                  "value": 0
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "ArrayAccess",
+                              "sourceLine": "8",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "8",
+                                  "name": "flags"
+                                },
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "8",
+                                  "value": 0
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "ArrayAccess",
+                              "sourceLine": "8",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "8",
+                                  "name": "marks"
+                                },
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "8",
+                                  "value": 0
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "ArrayAccess",
+                              "sourceLine": "8",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "8",
+                                  "name": "words"
+                                },
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "8",
+                                  "value": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Syntax error in 119_illegal_while_blockless_statement_body.sl at line 4: syntax error, unexpected T_ID, expecting T_LBRACE

@@ -1,0 +1,2 @@
+Lexer error in 139_illegal_illegal_character.sl at line 2: illegal character '@'
+Syntax error in 139_illegal_illegal_character.sl at line 2: syntax error, unexpected T_SEMICOLON

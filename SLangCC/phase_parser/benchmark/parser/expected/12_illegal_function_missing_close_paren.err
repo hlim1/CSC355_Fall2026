@@ -1,0 +1,1 @@
+Syntax error in 12_illegal_function_missing_close_paren.sl at line 1: syntax error, unexpected T_LBRACE, expecting T_RPAREN

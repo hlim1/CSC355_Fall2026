@@ -1,0 +1,1 @@
+Syntax error in 89_illegal_call_missing_close_paren.sl at line 5: syntax error, unexpected T_SEMICOLON, expecting T_RPAREN

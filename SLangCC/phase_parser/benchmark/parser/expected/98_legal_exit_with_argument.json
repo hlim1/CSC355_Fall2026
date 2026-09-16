@@ -1,0 +1,58 @@
+{
+  "kind": "Program",
+  "sourceFile": "98_legal_exit_with_argument.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "1",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "1",
+                  "children": [
+                    {
+                      "kind": "ExitStatement",
+                      "sourceLine": "2",
+                      "children": [
+                        {
+                          "kind": "ArgumentList",
+                          "sourceLine": "2",
+                          "children": [
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "2",
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

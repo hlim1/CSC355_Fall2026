@@ -1,0 +1,1 @@
+Syntax error in 24_illegal_declaration_leading_comma.sl at line 2: syntax error, unexpected T_COMMA, expecting T_ID

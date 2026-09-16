@@ -1,0 +1,325 @@
+{
+  "kind": "Program",
+  "sourceFile": "65_legal_unary_expressions.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "1",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "1",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "2",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "2",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "2",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "2",
+                              "name": "value",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "2",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "2",
+                                      "value": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "3",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "3",
+                          "value": "boolean"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "3",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "3",
+                              "name": "ready",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "3",
+                                  "children": [
+                                    {
+                                      "kind": "BooleanLiteral",
+                                      "sourceLine": "3",
+                                      "value": false
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "5",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "5",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "5",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "5",
+                              "name": "negative",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "5",
+                                  "children": [
+                                    {
+                                      "kind": "UnaryOp",
+                                      "sourceLine": "5",
+                                      "value": "-",
+                                      "children": [
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "5",
+                                          "name": "value"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "6",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "6",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "6",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "6",
+                              "name": "nestedNegative",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "6",
+                                  "children": [
+                                    {
+                                      "kind": "UnaryOp",
+                                      "sourceLine": "6",
+                                      "value": "-",
+                                      "children": [
+                                        {
+                                          "kind": "UnaryOp",
+                                          "sourceLine": "6",
+                                          "value": "-",
+                                          "children": [
+                                            {
+                                              "kind": "Identifier",
+                                              "sourceLine": "6",
+                                              "name": "value"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "7",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "7",
+                          "value": "boolean"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "7",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "7",
+                              "name": "inverted",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "7",
+                                  "children": [
+                                    {
+                                      "kind": "UnaryOp",
+                                      "sourceLine": "7",
+                                      "value": "!",
+                                      "children": [
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "7",
+                                          "name": "ready"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "8",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "8",
+                          "value": "boolean"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "8",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "8",
+                              "name": "nestedInverted",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "8",
+                                  "children": [
+                                    {
+                                      "kind": "UnaryOp",
+                                      "sourceLine": "8",
+                                      "value": "!",
+                                      "children": [
+                                        {
+                                          "kind": "UnaryOp",
+                                          "sourceLine": "8",
+                                          "value": "!",
+                                          "children": [
+                                            {
+                                              "kind": "Identifier",
+                                              "sourceLine": "8",
+                                              "name": "ready"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "PrintStatement",
+                      "sourceLine": "10",
+                      "children": [
+                        {
+                          "kind": "ArgumentList",
+                          "sourceLine": "10",
+                          "children": [
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "10",
+                              "name": "negative"
+                            },
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "10",
+                              "name": "nestedNegative"
+                            },
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "10",
+                              "name": "inverted"
+                            },
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "10",
+                              "name": "nestedInverted"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

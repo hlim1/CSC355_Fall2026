@@ -1,0 +1,1 @@
+Syntax error in 47_illegal_array_access_missing_close_bracket.sl at line 3: syntax error, unexpected T_ASSIGN, expecting T_RBRACKET
