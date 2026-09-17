@@ -1,0 +1,6 @@
+int value = 5;
+if (value == 5) {
+    return value;
+} else {
+    return 0;
+}

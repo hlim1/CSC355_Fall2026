@@ -1,0 +1,2 @@
+int count = 42;
+count = count + 1;

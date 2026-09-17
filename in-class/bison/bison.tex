@@ -1,0 +1,318 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{algorithm}
+\usepackage[noend]{algorithmic}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\usepackage{graphicx}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{xy}
+\usepackage{url}
+\usepackage{newclude}
+\usepackage{setspace}
+\usepackage{enumerate}
+\usepackage{multirow}
+\usepackage{upquote}
+\usepackage{hyperref}
+\usepackage{adjustbox}
+\usepackage{array}
+
+% -----------------------------------------------------------------------------
+% CSC 355 In-Class Activity Worksheet
+% -----------------------------------------------------------------------------
+
+% Spacing
+\setstretch{1.25}
+\renewcommand*\arraystretch{1.5}
+\setlength\headheight{18pt}
+
+% Common commands
+\newcommand{\checkbox}{\item[$\square$]}
+\newcommand{\points}[1]{[{#1} pts]}
+\newcommand{\set}[1]{\{#1\}}
+
+\newcounter{problem}[section]
+\newenvironment{problem}[1][]{%
+  \refstepcounter{problem}\par\medskip
+  \noindent\textbf{Problem~\theproblem #1:} \rmfamily
+}{\medskip}
+
+% Worksheet metadata
+\newcommand{\activitytitle}{Parsing with Bison}
+\newcommand{\activitydate}{}
+\newcommand{\activitytime}{}
+\newcommand{\coursenumber}{CSC 355}
+
+\newcommand{\setupactivity}{%
+  \pagestyle{fancy}
+  \lhead{\small{\coursenumber}}
+  \chead{\large{\textbf{\activitytitle}}}
+  \rhead{\small{\activitydate\ \activitytime}}
+}
+
+\newcommand{\namebar}{%
+  \noindent{\bfseries\Large Name:} \hrulefill \\
+}
+
+% Optional rotated table column helper.
+\newcolumntype{R}[2]{%
+    >{\adjustbox{angle=#1,lap=\width-(#2)}\bgroup}%
+    l%
+    <{\egroup}%
+}
+\newcommand*\rot{\multicolumn{1}{R{45}{1em}}}
+
+% Large boxed response area.
+\newcommand\answerbox{%
+    \fbox{\rule{\linewidth}{-.5pt}\rule[10ex]{0pt}{20ex}}}
+
+% Code-listing style
+\lstset{
+  tabsize=3,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{red}\bfseries,
+  stringstyle=\color{blue},
+  commentstyle=\color{OliveGreen},
+  breaklines=true,
+  captionpos=b,
+  frame=single,
+  language=C++,
+  showstringspaces=false
+}
+
+\setupactivity
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+
+\begin{document}
+
+\section*{In-Class Exercise: Parsing with Bison}
+
+\subsection*{Learning Objective}
+
+In this exercise, you will learn how to use Bison to construct a parser from a context-free grammar. You will examine the provided parser skeleton in \texttt{parser.y}, complete grammar rules and actions, and observe how Bison reduces input according to the grammar. You will also see how semantic values are attached to tokens and nonterminals, and how parser actions can access those values with \texttt{\$1}, \texttt{\$2}, \texttt{\$3}, and \texttt{\$\$}.
+
+\subsection*{Instruction}
+
+In the course repository, find the \texttt{in-class/bison/} directory.
+Copy this directory to your course directory.
+In this directory, you will find:
+%
+\begin{itemize}
+    \item \texttt{parser.cpp}: The main program file. It calls the Bison parser and reports whether parsing succeeded.
+    \item \textbf{\texttt{parser.y}: The Bison specification file. You will complete this file.}
+    \item \texttt{lexer.l}: A Flex scanner that returns the tokens and semantic values used by the parser.
+    \item \texttt{Makefile}: Contains the commands for generating the parser and scanner and compiling the program.
+    \item \texttt{tests/}: Contains input files for testing the parser, including both valid and invalid inputs.
+\end{itemize}
+
+Your goal is to construct a working parser by writing the missing parts of the \textbf{Bison grammar} and the \textbf{semantic actions} in \texttt{parser.y}.
+
+You should focus on \texttt{parser.y}. Do \textbf{not} modify \texttt{parser.cpp}. The provided \texttt{lexer.l} already returns the tokens needed by the parser.
+
+\subsection*{Complete \texttt{parser.y}}
+
+Complete the provided \texttt{parser.y} so that it correctly parses the small language used in the test files.
+
+The grammar includes statements such as:
+\begin{itemize}
+    \item variable declarations,
+    \item assignments,
+    \item \texttt{if}/\texttt{else} statements,
+    \item \texttt{while} statements,
+    \item \texttt{return} statements,
+    \item blocks delimited by braces.
+\end{itemize}
+
+The expression grammar in this activity is intentionally small. Expressions use:
+\begin{itemize}
+    \item identifiers,
+    \item integer literals,
+    \item \texttt{+},
+    \item binary \texttt{-},
+    \item unary \texttt{-},
+    \item \texttt{<},
+    \item parentheses.
+\end{itemize}
+
+As you read \texttt{parser.y}, notice the three main parts of a Bison specification:
+\begin{enumerate}
+    \item the \textbf{prologue}, where helper C++ code and function declarations appear,
+    \item the \textbf{declarations} section, where tokens, types, precedence, and the start symbol are declared,
+    \item the \textbf{grammar rules} section, where productions and actions are written.
+\end{enumerate}
+
+The basic form of a Bison rule is
+
+\[
+    \boxed{\text{nonterminal} \; : \; \text{symbols} \; \{ \text{action} \}}
+\]
+
+When a rule is reduced, the code inside the braces executes.
+
+In the starter file, some actions are already written and some are marked with \texttt{COMPLETE ME}. Use the completed examples as a guide when filling in the remaining ones.
+
+\subsection*{Semantic Values and \texttt{\$}-Notation}
+
+This activity also demonstrates how Bison can store and propagate attribute values.
+
+The parser uses
+\begin{itemize}
+    \item \texttt{T\_ID} with a text value,
+    \item \texttt{T\_INT\_LITERAL} with an integer value,
+    \item \texttt{expression} with a text value built from its subexpressions.
+\end{itemize}
+
+In a Bison action:
+\begin{itemize}
+    \item \texttt{\$1} means the semantic value of the first symbol on the right-hand side,
+    \item \texttt{\$2} means the semantic value of the second symbol,
+    \item \texttt{\$3} means the semantic value of the third symbol,
+    \item \texttt{\$\$} means the semantic value produced by the left-hand side nonterminal.
+\end{itemize}
+
+For example, in the rule
+
+\begin{lstlisting}
+assignment_statement
+    : T_ID T_ASSIGN expression T_SEMICOLON
+      {
+          std::cout << "assignment uses $1 = " << $1
+                    << " and $3 = " << $3 << std::endl;
+          std::free($1);
+          std::free($3);
+      }
+    ;
+\end{lstlisting}
+
+\texttt{\$1} refers to the identifier text returned by the lexer, and \texttt{\$3} refers to the text value built for the expression.
+
+Similarly, expression rules can build new values for \texttt{\$\$}. For example,
+
+\begin{lstlisting}
+expression
+    : expression T_PLUS expression
+      {
+          $$ = makeBinaryExpression($1, "+", $3);
+          std::free($1);
+          std::free($3);
+      }
+\end{lstlisting}
+
+creates a new text value for the entire expression and stores it in \texttt{\$\$}.
+
+\subsection*{Precedence and Ambiguity}
+
+The parser file includes precedence declarations such as
+
+\begin{lstlisting}
+%left T_LESS
+%left T_PLUS T_MINUS
+%right UMINUS
+\end{lstlisting}
+
+These declarations help Bison decide how to parse expressions when more than one parse is possible.
+
+In particular:
+\begin{itemize}
+    \item \texttt{T\_PLUS} and binary \texttt{T\_MINUS} have the same precedence,
+    \item \texttt{T\_LESS} has lower precedence than addition and subtraction,
+    \item unary minus uses \texttt{\%prec UMINUS} so it binds more tightly than binary operators.
+\end{itemize}
+
+The grammar also uses
+
+\begin{lstlisting}
+%nonassoc LOWER_THAN_ELSE
+%nonassoc T_ELSE
+\end{lstlisting}
+
+to resolve the classic ``dangling \texttt{else}'' ambiguity.
+
+\subsection*{Memory Management}
+
+Some semantic values in this activity are dynamically allocated strings.
+For that reason, several actions call \texttt{std::free(...)} after the value is no longer needed.
+
+The file also contains a destructor declaration:
+
+\begin{lstlisting}
+%destructor { std::free($$); } <text>
+\end{lstlisting}
+
+This tells Bison how to clean up discarded values of type \texttt{<text>} during error handling. Even with a destructor, successful reductions may still need explicit \texttt{std::free(...)} calls inside actions.
+
+\newpage
+
+\subsection*{Useful Bison Notation}
+
+\begin{center}
+\begin{tabular}{|l|p{12cm}|}
+\hline
+\textbf{Notation} & \textbf{Meaning} \\
+\hline
+\texttt{\%token} & Declares a terminal symbol returned by the lexer. \\
+\hline
+\texttt{\%type} & Declares the semantic-value type of a nonterminal. \\
+\hline
+\texttt{\%union} & Defines the set of possible semantic-value types. \\
+\hline
+\texttt{\$\$} & The semantic value produced by the left-hand side nonterminal. \\
+\hline
+\texttt{\$1}, \texttt{\$2}, \texttt{\$3}, \dots & The semantic values of symbols on the right-hand side of the production. \\
+\hline
+\texttt{|} & Begins another alternative for the same nonterminal. \\
+\hline
+\texttt{/* empty */} & An empty production. \\
+\hline
+\texttt{\%left}, \texttt{\%right}, \texttt{\%nonassoc} & Declares precedence and associativity. \\
+\hline
+\texttt{\%prec} & Assigns a rule the precedence of another symbol. \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection*{Build and Test Your Parser}
+
+Build your parser with
+
+\begin{lstlisting}[language=bash]
+make
+\end{lstlisting}
+
+If Bison, Flex, or the C++ compiler reports an error, read the diagnostic carefully and locate the corresponding part of \texttt{parser.y}.
+
+Once the program builds successfully, run
+
+\begin{lstlisting}[language=bash]
+./parser <test-file>
+\end{lstlisting}
+
+on each of the provided test files in the \texttt{tests/} directory.
+
+\begin{itemize}
+    \checkbox All valid test files parse successfully.
+    \checkbox The action output matches the expected output for valid inputs.
+    \checkbox Invalid test files report an error.
+\end{itemize}
+
+The expected output can be found in the \texttt{tests/expected/} directory.
+
+Before running the parser, predict the messages that will be printed for the following input:
+
+\begin{lstlisting}
+int x = -2;
+while (x < 1) {
+    x = x + 1;
+}
+\end{lstlisting}
+
+As you compare your prediction to the actual output, pay attention to the order in which reductions occur.
+
+\subsection*{Submit}
+
+Push your completed \texttt{parser.y} to your course repository.
+
+\end{document}
