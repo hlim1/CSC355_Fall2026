@@ -1,1 +1,8 @@
+declared variable: x initialized to (-2)
+declaration statement
+assignment uses $1 = x and $3 = (x + 1)
+assignment statement
+block
+while condition uses $3 = (x < 1)
+while statement
 Parse successful

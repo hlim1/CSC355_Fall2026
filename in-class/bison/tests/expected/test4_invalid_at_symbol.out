@@ -1,2 +1,4 @@
+declared variable: count initialized to 12
+declaration statement
 Lexer error on line 2: illegal character '@'
-Parser error on line 2: syntax error, unexpected T_INT_LITERAL near '4'
+Parser error on line 2: syntax error, unexpected T_INT_LITERAL, expecting T_PLUS or T_MINUS or T_SEMICOLON or T_LESS near '4'

@@ -1,1 +1,11 @@
+declared variable: value initialized to 5
+declaration statement
+returning expression: value
+return statement
+block
+returning expression: (-1)
+return statement
+block
+if/else condition uses $3 = (value < 10)
+if statement
 Parse successful

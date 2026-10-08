@@ -1,1 +1,5 @@
+declared variable: count initialized to 42
+declaration statement
+assignment uses $1 = count and $3 = (count + 1)
+assignment statement
 Parse successful
