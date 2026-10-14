@@ -14,6 +14,8 @@ CSC355_Fall2026/
 
 ## Project Release--Deadlines
 **Phase Lexer**: September 3, 2026,--September 17, 2026.
+**Phase Parser**: September 17, 2026,--October 22, 2026.
 
 ## In-Class Activity
 **Lexical Analysis with Flex**: September 3, 2026
+**Parsing with Bison**: September 17, 2026
