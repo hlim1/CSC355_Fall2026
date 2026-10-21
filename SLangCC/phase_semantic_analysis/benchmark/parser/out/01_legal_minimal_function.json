@@ -1,0 +1,39 @@
+{
+  "kind": "Program",
+  "sourceFile": "01_legal_minimal_function.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "2",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

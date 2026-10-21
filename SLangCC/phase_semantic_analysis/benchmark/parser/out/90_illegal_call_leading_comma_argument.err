@@ -1,0 +1,1 @@
+Syntax error in 90_illegal_call_leading_comma_argument.sl at line 5: syntax error, unexpected T_COMMA, expecting T_RPAREN

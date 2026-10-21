@@ -1,0 +1,1 @@
+Syntax error in 69_illegal_increment_missing_target.sl at line 2: syntax error, unexpected T_SEMICOLON, expecting T_ID or T_LPAREN

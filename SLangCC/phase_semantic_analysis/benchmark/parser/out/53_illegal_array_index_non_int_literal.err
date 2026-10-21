@@ -1,0 +1,1 @@
+Syntax error in 53_illegal_array_index_non_int_literal.sl at line 3: syntax error, unexpected T_STRING_LITERAL, expecting T_INT_LITERAL or T_ID

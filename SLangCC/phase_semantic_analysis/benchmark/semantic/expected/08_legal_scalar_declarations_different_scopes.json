@@ -1,0 +1,462 @@
+{
+  "kind": "Program",
+  "sourceFile": "08_legal_scalar_declarations_different_scopes.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "foo",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "int"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1",
+              "children": [
+                {
+                  "kind": "Parameter",
+                  "sourceLine": "1",
+                  "name": "x",
+                  "children": [
+                    {
+                      "kind": "Type",
+                      "sourceLine": "1",
+                      "value": "int"
+                    }
+                  ]
+                },
+                {
+                  "kind": "Parameter",
+                  "sourceLine": "1",
+                  "name": "y",
+                  "children": [
+                    {
+                      "kind": "Type",
+                      "sourceLine": "1",
+                      "value": "int"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "1",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "1",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "2",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "2",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "2",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "2",
+                              "name": "z",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "2",
+                                  "children": [
+                                    {
+                                      "kind": "BinaryOp",
+                                      "sourceLine": "2",
+                                      "value": "+",
+                                      "type": "int",
+                                      "children": [
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "2",
+                                          "name": "x",
+                                          "type": "int"
+                                        },
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "2",
+                                          "name": "y",
+                                          "type": "int"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "ReturnStatement",
+                      "sourceLine": "3",
+                      "children": [
+                        {
+                          "kind": "BinaryOp",
+                          "sourceLine": "3",
+                          "value": "*",
+                          "type": "int",
+                          "children": [
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "3",
+                              "name": "z",
+                              "type": "int"
+                            },
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "3",
+                              "value": 2,
+                              "type": "int"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "6",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "6",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "6"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "6",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "6",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "7",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "7",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "7",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "7",
+                              "name": "left",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "7",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "7",
+                                      "value": 1,
+                                      "type": "int"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "7",
+                              "name": "right",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "7",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "7",
+                                      "value": 2,
+                                      "type": "int"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "7",
+                              "name": "total",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "7",
+                                  "children": [
+                                    {
+                                      "kind": "BinaryOp",
+                                      "sourceLine": "7",
+                                      "value": "+",
+                                      "type": "int",
+                                      "children": [
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "7",
+                                          "name": "left",
+                                          "type": "int"
+                                        },
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "7",
+                                          "name": "right",
+                                          "type": "int"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "9",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "9",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "9",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "9",
+                              "name": "result",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "9",
+                                  "children": [
+                                    {
+                                      "kind": "CallStatement",
+                                      "sourceLine": "9",
+                                      "type": "int",
+                                      "children": [
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "9",
+                                          "name": "foo"
+                                        },
+                                        {
+                                          "kind": "ArgumentList",
+                                          "sourceLine": "9",
+                                          "children": [
+                                            {
+                                              "kind": "Identifier",
+                                              "sourceLine": "9",
+                                              "name": "total",
+                                              "type": "int"
+                                            },
+                                            {
+                                              "kind": "IntLiteral",
+                                              "sourceLine": "9",
+                                              "value": 3,
+                                              "type": "int"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "PrintStatement",
+                      "sourceLine": "11",
+                      "children": [
+                        {
+                          "kind": "ArgumentList",
+                          "sourceLine": "11",
+                          "children": [
+                            {
+                              "kind": "inttostring",
+                              "sourceLine": "11",
+                              "type": "string",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "11",
+                                  "name": "total",
+                                  "type": "int"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "inttostring",
+                              "sourceLine": "11",
+                              "type": "string",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "11",
+                                  "name": "result",
+                                  "type": "int"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "13",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "13",
+                          "value": "string"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "13",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "13",
+                              "name": "first",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "13",
+                                  "children": [
+                                    {
+                                      "kind": "StringLiteral",
+                                      "sourceLine": "13",
+                                      "value": "a",
+                                      "type": "string"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "13",
+                              "name": "second",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "13",
+                                  "children": [
+                                    {
+                                      "kind": "StringLiteral",
+                                      "sourceLine": "13",
+                                      "value": "b",
+                                      "type": "string"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "PrintStatement",
+                      "sourceLine": "15",
+                      "children": [
+                        {
+                          "kind": "ArgumentList",
+                          "sourceLine": "15",
+                          "children": [
+                            {
+                              "kind": "inttostring",
+                              "sourceLine": "15",
+                              "type": "string",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "15",
+                                  "name": "total",
+                                  "type": "int"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "15",
+                              "name": "first",
+                              "type": "string"
+                            },
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "15",
+                              "name": "second",
+                              "type": "string"
+                            },
+                            {
+                              "kind": "inttostring",
+                              "sourceLine": "15",
+                              "type": "string",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "15",
+                                  "name": "result",
+                                  "type": "int"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "kind": "Program",
+  "sourceFile": "31_legal_type_casting.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "1",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "1",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "2",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "2",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "2",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "2",
+                              "name": "integerValue",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "2",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "2",
+                                      "value": 65,
+                                      "type": "int"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "3",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "3",
+                          "value": "double"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "3",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "3",
+                              "name": "doubleValue",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "3",
+                                  "children": [
+                                    {
+                                      "kind": "DecimalLiteral",
+                                      "sourceLine": "3",
+                                      "value": 2.5,
+                                      "type": "double"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "4",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "4",
+                          "value": "character"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "4",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "4",
+                              "name": "characterValue",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "4",
+                                  "children": [
+                                    {
+                                      "kind": "CharacterLiteral",
+                                      "sourceLine": "4",
+                                      "value": "A",
+                                      "type": "character"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "5",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "5",
+                          "value": "boolean"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "5",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "5",
+                              "name": "booleanValue",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "5",
+                                  "children": [
+                                    {
+                                      "kind": "BooleanLiteral",
+                                      "sourceLine": "5",
+                                      "value": true,
+                                      "type": "boolean"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "7",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "7",
+                          "value": "double"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "7",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "7",
+                              "name": "integerAsDouble",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "7",
+                                  "children": [
+                                    {
+                                      "kind": "inttodouble",
+                                      "sourceLine": "7",
+                                      "type": "double",
+                                      "children": [
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "7",
+                                          "name": "integerValue",
+                                          "type": "int"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "8",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "8",
+                          "value": "character"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "8",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "8",
+                              "name": "integerAsCharacter",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "8",
+                                  "children": [
+                                    {
+                                      "kind": "inttochar",
+                                      "sourceLine": "8",
+                                      "type": "character",
+                                      "children": [
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "8",
+                                          "name": "integerValue",
+                                          "type": "int"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "9",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "9",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "9",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "9",
+                              "name": "characterAsInteger",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "9",
+                                  "children": [
+                                    {
+                                      "kind": "chartoint",
+                                      "sourceLine": "9",
+                                      "type": "int",
+                                      "children": [
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "9",
+                                          "name": "characterValue",
+                                          "type": "character"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "10",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "10",
+                          "value": "string"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "10",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "10",
+                              "name": "characterAsString",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "10",
+                                  "children": [
+                                    {
+                                      "kind": "chartostring",
+                                      "sourceLine": "10",
+                                      "type": "string",
+                                      "children": [
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "10",
+                                          "name": "characterValue",
+                                          "type": "character"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "11",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "11",
+                          "value": "string"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "11",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "11",
+                              "name": "integerAsString",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "11",
+                                  "children": [
+                                    {
+                                      "kind": "inttostring",
+                                      "sourceLine": "11",
+                                      "type": "string",
+                                      "children": [
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "11",
+                                          "name": "integerValue",
+                                          "type": "int"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "12",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "12",
+                          "value": "string"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "12",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "12",
+                              "name": "doubleAsString",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "12",
+                                  "children": [
+                                    {
+                                      "kind": "doubletostring",
+                                      "sourceLine": "12",
+                                      "type": "string",
+                                      "children": [
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "12",
+                                          "name": "doubleValue",
+                                          "type": "double"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "13",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "13",
+                          "value": "string"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "13",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "13",
+                              "name": "booleanAsString",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "13",
+                                  "children": [
+                                    {
+                                      "kind": "booltostring",
+                                      "sourceLine": "13",
+                                      "type": "string",
+                                      "children": [
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "13",
+                                          "name": "booleanValue",
+                                          "type": "boolean"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

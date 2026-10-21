@@ -1,0 +1,1 @@
+Syntax error in 22_illegal_declaration_missing_initializer.sl at line 2: syntax error, unexpected T_SEMICOLON, expecting T_LBRACKET or T_ASSIGN

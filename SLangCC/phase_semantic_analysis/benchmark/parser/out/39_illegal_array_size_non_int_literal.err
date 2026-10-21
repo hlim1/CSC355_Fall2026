@@ -1,0 +1,1 @@
+Syntax error in 39_illegal_array_size_non_int_literal.sl at line 2: syntax error, unexpected T_DECIMAL_LITERAL, expecting T_INT_LITERAL or T_ID

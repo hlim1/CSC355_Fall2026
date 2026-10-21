@@ -1,0 +1,1 @@
+Syntax error in 99_illegal_exit_missing_parentheses.sl at line 2: syntax error, unexpected T_SEMICOLON, expecting T_LPAREN

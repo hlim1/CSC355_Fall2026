@@ -1,0 +1,194 @@
+{
+  "kind": "Program",
+  "sourceFile": "25_legal_assignment_same_type_expression.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "2",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "2",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "3",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "3",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "3",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "3",
+                              "name": "left",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "3",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "3",
+                                      "value": 6,
+                                      "type": "int"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "4",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "4",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "4",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "4",
+                              "name": "right",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "4",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "4",
+                                      "value": 3,
+                                      "type": "int"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "5",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "5",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "5",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "5",
+                              "name": "result",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "5",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "5",
+                                      "value": 0,
+                                      "type": "int"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Assignment",
+                      "sourceLine": "6",
+                      "children": [
+                        {
+                          "kind": "Identifier",
+                          "sourceLine": "6",
+                          "name": "result"
+                        },
+                        {
+                          "kind": "BinaryOp",
+                          "sourceLine": "6",
+                          "value": "/",
+                          "type": "int",
+                          "children": [
+                            {
+                              "kind": "BinaryOp",
+                              "sourceLine": "6",
+                              "value": "+",
+                              "type": "int",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "6",
+                                  "name": "left",
+                                  "type": "int"
+                                },
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "6",
+                                  "name": "right",
+                                  "type": "int"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "6",
+                              "value": 3,
+                              "type": "int"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

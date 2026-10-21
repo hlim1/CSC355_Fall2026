@@ -1,0 +1,2 @@
+Semantic error in 05_illegal_main_call.sl at line 7: The 'main' function cannot be called.
+Semantic error in 05_illegal_main_call.sl at line 7: Function call used as a statement must have void return type.

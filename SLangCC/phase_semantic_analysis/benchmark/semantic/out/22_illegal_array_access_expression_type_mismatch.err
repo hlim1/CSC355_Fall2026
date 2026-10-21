@@ -1,0 +1,1 @@
+Semantic error in 22_illegal_array_access_expression_type_mismatch.sl at line 5: Cannot assign value of type 'int' to type 'string'.

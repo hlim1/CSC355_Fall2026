@@ -1,0 +1,1 @@
+Semantic error in 39_illegal_function_too_many_arguments.sl at line 8: Argument count mismatch in function call to 'one'. Expected 1 arguments, but got 2.

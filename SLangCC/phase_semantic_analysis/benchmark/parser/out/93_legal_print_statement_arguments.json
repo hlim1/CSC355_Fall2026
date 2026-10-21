@@ -1,0 +1,170 @@
+{
+  "kind": "Program",
+  "sourceFile": "93_legal_print_statement_arguments.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "1",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "1",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "2",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "2",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "2",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "2",
+                              "name": "count",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "2",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "2",
+                                      "value": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "3",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "3",
+                          "value": "double"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "3",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "3",
+                              "name": "ratio",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "3",
+                                  "children": [
+                                    {
+                                      "kind": "DecimalLiteral",
+                                      "sourceLine": "3",
+                                      "value": 2.5
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "PrintStatement",
+                      "sourceLine": "5",
+                      "children": [
+                        {
+                          "kind": "ArgumentList",
+                          "sourceLine": "5"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "PrintStatement",
+                      "sourceLine": "6",
+                      "children": [
+                        {
+                          "kind": "ArgumentList",
+                          "sourceLine": "6",
+                          "children": [
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "6",
+                              "name": "count"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "PrintStatement",
+                      "sourceLine": "7",
+                      "children": [
+                        {
+                          "kind": "ArgumentList",
+                          "sourceLine": "7",
+                          "children": [
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "7",
+                              "name": "count"
+                            },
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "7",
+                              "name": "ratio"
+                            },
+                            {
+                              "kind": "StringLiteral",
+                              "sourceLine": "7",
+                              "value": "done"
+                            },
+                            {
+                              "kind": "BooleanLiteral",
+                              "sourceLine": "7",
+                              "value": true
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Semantic error in 11_illegal_duplicate_parameter_name.sl at line 1: Symbol 'value' already exists in scope 'add'.

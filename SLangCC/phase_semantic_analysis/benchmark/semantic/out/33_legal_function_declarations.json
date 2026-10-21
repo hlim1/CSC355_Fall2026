@@ -1,0 +1,111 @@
+{
+  "kind": "Program",
+  "sourceFile": "33_legal_function_declarations.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "foo",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "2",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "5",
+          "name": "foo1",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "5",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "5"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "6",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "6",
+                  "children": [
+                    {
+                      "kind": "ReturnStatement",
+                      "sourceLine": "7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "10",
+          "name": "foo2",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "10",
+              "value": "int"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "10"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "11",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "11",
+                  "children": [
+                    {
+                      "kind": "ReturnStatement",
+                      "sourceLine": "12",
+                      "children": [
+                        {
+                          "kind": "IntLiteral",
+                          "sourceLine": "12",
+                          "value": 1,
+                          "type": "int"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

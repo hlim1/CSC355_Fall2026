@@ -1,0 +1,228 @@
+{
+  "kind": "Program",
+  "sourceFile": "55_legal_compound_assignments.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "1",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "1",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "2",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "2",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "2",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "2",
+                              "name": "value",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "2",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "2",
+                                      "value": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "3",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "3",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "ArrayDeclarator",
+                          "sourceLine": "3",
+                          "name": "numbers",
+                          "children": [
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "3",
+                              "value": 2
+                            },
+                            {
+                              "kind": "InitializationList",
+                              "sourceLine": "3",
+                              "children": [
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "3",
+                                  "value": 1
+                                },
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "3",
+                                  "value": 2
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "CompoundAssignment",
+                      "sourceLine": "5",
+                      "value": "+=",
+                      "children": [
+                        {
+                          "kind": "Identifier",
+                          "sourceLine": "5",
+                          "name": "value"
+                        },
+                        {
+                          "kind": "IntLiteral",
+                          "sourceLine": "5",
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "CompoundAssignment",
+                      "sourceLine": "6",
+                      "value": "-=",
+                      "children": [
+                        {
+                          "kind": "Identifier",
+                          "sourceLine": "6",
+                          "name": "value"
+                        },
+                        {
+                          "kind": "BinaryOp",
+                          "sourceLine": "6",
+                          "value": "-",
+                          "children": [
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "6",
+                              "value": 1
+                            },
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "6",
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "CompoundAssignment",
+                      "sourceLine": "7",
+                      "value": "+=",
+                      "children": [
+                        {
+                          "kind": "ArrayAccess",
+                          "sourceLine": "7",
+                          "children": [
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "7",
+                              "name": "numbers"
+                            },
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "7",
+                              "value": 0
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "Identifier",
+                          "sourceLine": "7",
+                          "name": "value"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "CompoundAssignment",
+                      "sourceLine": "8",
+                      "value": "-=",
+                      "children": [
+                        {
+                          "kind": "ArrayAccess",
+                          "sourceLine": "8",
+                          "children": [
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "8",
+                              "name": "numbers"
+                            },
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "8",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "ArrayAccess",
+                          "sourceLine": "8",
+                          "children": [
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "8",
+                              "name": "numbers"
+                            },
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "8",
+                              "value": 0
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

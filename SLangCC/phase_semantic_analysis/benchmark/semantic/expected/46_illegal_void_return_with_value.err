@@ -1,0 +1,1 @@
+Semantic error in 46_illegal_void_return_with_value.sl at line 3: Void function should not return a value in function 'helper'.

@@ -1,0 +1,1 @@
+Semantic error in 04_illegal_main_declaration.sl at line 1: The 'main' function must have a return type of 'void'.

@@ -1,0 +1,1 @@
+Semantic error in 42_illegal_void_call_used_as_expression.sl at line 8: Cannot assign value of type 'void' to type 'int'.

@@ -1,0 +1,1 @@
+Semantic error in 24_illegal_assignment_widen_int_to_double.sl at line 5: Cannot assign value of type 'int' to type 'double'.

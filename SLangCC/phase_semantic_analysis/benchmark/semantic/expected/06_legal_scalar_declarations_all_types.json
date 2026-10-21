@@ -1,0 +1,221 @@
+{
+  "kind": "Program",
+  "sourceFile": "06_legal_scalar_declarations_all_types.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "2",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "2",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "3",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "3",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "3",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "3",
+                              "name": "count",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "3",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "3",
+                                      "value": 3,
+                                      "type": "int"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "4",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "4",
+                          "value": "double"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "4",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "4",
+                              "name": "price",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "4",
+                                  "children": [
+                                    {
+                                      "kind": "DecimalLiteral",
+                                      "sourceLine": "4",
+                                      "value": 4.5,
+                                      "type": "double"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "5",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "5",
+                          "value": "boolean"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "5",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "5",
+                              "name": "ready",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "5",
+                                  "children": [
+                                    {
+                                      "kind": "BooleanLiteral",
+                                      "sourceLine": "5",
+                                      "value": true,
+                                      "type": "boolean"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "6",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "6",
+                          "value": "character"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "6",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "6",
+                              "name": "grade",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "6",
+                                  "children": [
+                                    {
+                                      "kind": "CharacterLiteral",
+                                      "sourceLine": "6",
+                                      "value": "A",
+                                      "type": "character"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "7",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "7",
+                          "value": "string"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "7",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "7",
+                              "name": "label",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "7",
+                                  "children": [
+                                    {
+                                      "kind": "StringLiteral",
+                                      "sourceLine": "7",
+                                      "value": "ok",
+                                      "type": "string"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

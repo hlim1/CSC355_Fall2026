@@ -1,0 +1,75 @@
+{
+  "kind": "Program",
+  "sourceFile": "120_legal_for_empty_clauses.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "1",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "1",
+                  "children": [
+                    {
+                      "kind": "ForStatement",
+                      "sourceLine": "2",
+                      "children": [
+                        {
+                          "kind": "ForInit",
+                          "sourceLine": "2"
+                        },
+                        {
+                          "kind": "ForCondition",
+                          "sourceLine": "2"
+                        },
+                        {
+                          "kind": "ForUpdate",
+                          "sourceLine": "2"
+                        },
+                        {
+                          "kind": "Block",
+                          "sourceLine": "2",
+                          "children": [
+                            {
+                              "kind": "StatementList",
+                              "sourceLine": "2",
+                              "children": [
+                                {
+                                  "kind": "BreakStatement",
+                                  "sourceLine": "3"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

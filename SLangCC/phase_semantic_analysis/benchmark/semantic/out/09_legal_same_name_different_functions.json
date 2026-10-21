@@ -1,0 +1,285 @@
+{
+  "kind": "Program",
+  "sourceFile": "09_legal_same_name_different_functions.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "first",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "int"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "2",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "2",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "3",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "3",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "3",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "3",
+                              "name": "value",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "3",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "3",
+                                      "value": 1,
+                                      "type": "int"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "ReturnStatement",
+                      "sourceLine": "4",
+                      "children": [
+                        {
+                          "kind": "Identifier",
+                          "sourceLine": "4",
+                          "name": "value",
+                          "type": "int"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "7",
+          "name": "second",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "7",
+              "value": "int"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "7"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "8",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "8",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "9",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "9",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "9",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "9",
+                              "name": "value",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "9",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "9",
+                                      "value": 2,
+                                      "type": "int"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "ReturnStatement",
+                      "sourceLine": "10",
+                      "children": [
+                        {
+                          "kind": "Identifier",
+                          "sourceLine": "10",
+                          "name": "value",
+                          "type": "int"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "13",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "13",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "13"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "14",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "14",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "15",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "15",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "15",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "15",
+                              "name": "a",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "15",
+                                  "children": [
+                                    {
+                                      "kind": "CallStatement",
+                                      "sourceLine": "15",
+                                      "type": "int",
+                                      "children": [
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "15",
+                                          "name": "first"
+                                        },
+                                        {
+                                          "kind": "ArgumentList",
+                                          "sourceLine": "15"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "16",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "16",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "16",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "16",
+                              "name": "b",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "16",
+                                  "children": [
+                                    {
+                                      "kind": "CallStatement",
+                                      "sourceLine": "16",
+                                      "type": "int",
+                                      "children": [
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "16",
+                                          "name": "second"
+                                        },
+                                        {
+                                          "kind": "ArgumentList",
+                                          "sourceLine": "16"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

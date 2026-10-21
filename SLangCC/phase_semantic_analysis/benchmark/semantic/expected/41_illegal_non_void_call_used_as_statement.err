@@ -1,0 +1,1 @@
+Semantic error in 41_illegal_non_void_call_used_as_statement.sl at line 8: Function call used as a statement must have void return type.

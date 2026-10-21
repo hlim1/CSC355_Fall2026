@@ -1,0 +1,104 @@
+{
+  "kind": "Program",
+  "sourceFile": "03_legal_comments_and_whitespace.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "2",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "2",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "2"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "2",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "2",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "3",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "3",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "3",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "3",
+                              "name": "value",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "3",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "3",
+                                      "value": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Assignment",
+                      "sourceLine": "6",
+                      "children": [
+                        {
+                          "kind": "Identifier",
+                          "sourceLine": "6",
+                          "name": "value"
+                        },
+                        {
+                          "kind": "BinaryOp",
+                          "sourceLine": "6",
+                          "value": "+",
+                          "children": [
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "6",
+                              "name": "value"
+                            },
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "6",
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

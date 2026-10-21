@@ -1,0 +1,1 @@
+Syntax error in 52_illegal_array_index_declaration.sl at line 3: syntax error, unexpected T_INT, expecting T_INT_LITERAL or T_ID

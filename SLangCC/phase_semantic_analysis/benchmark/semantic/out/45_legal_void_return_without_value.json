@@ -1,0 +1,89 @@
+{
+  "kind": "Program",
+  "sourceFile": "45_legal_void_return_without_value.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "helper",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "2",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "2",
+                  "children": [
+                    {
+                      "kind": "ReturnStatement",
+                      "sourceLine": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "6",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "6",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "6"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "7",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "7",
+                  "children": [
+                    {
+                      "kind": "CallStatement",
+                      "sourceLine": "8",
+                      "type": "void",
+                      "children": [
+                        {
+                          "kind": "Identifier",
+                          "sourceLine": "8",
+                          "name": "helper"
+                        },
+                        {
+                          "kind": "ArgumentList",
+                          "sourceLine": "8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

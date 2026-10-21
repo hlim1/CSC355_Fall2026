@@ -1,0 +1,1 @@
+Syntax error in 11_illegal_function_missing_open_paren.sl at line 1: syntax error, unexpected T_RPAREN, expecting T_LPAREN or T_LBRACKET or T_ASSIGN

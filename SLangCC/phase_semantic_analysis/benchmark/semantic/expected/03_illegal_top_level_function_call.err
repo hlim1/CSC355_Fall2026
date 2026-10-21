@@ -1,0 +1,1 @@
+Semantic error in 03_illegal_top_level_function_call.sl at line 1: all statements must be inside a function

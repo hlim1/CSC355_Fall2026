@@ -1,0 +1,1 @@
+Syntax error in 46_illegal_array_access_missing_index.sl at line 3: syntax error, unexpected T_RBRACKET, expecting T_INT_LITERAL or T_ID

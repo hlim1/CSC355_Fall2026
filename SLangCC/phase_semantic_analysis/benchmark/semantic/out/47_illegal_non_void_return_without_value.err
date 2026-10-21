@@ -1,0 +1,1 @@
+Semantic error in 47_illegal_non_void_return_without_value.sl at line 3: Non-void function must return a value in function 'missing_return_value'.

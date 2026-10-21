@@ -1,0 +1,1 @@
+Semantic error in 27_illegal_assignment_narrow_double_to_int.sl at line 5: Cannot assign value of type 'double' to type 'int'.

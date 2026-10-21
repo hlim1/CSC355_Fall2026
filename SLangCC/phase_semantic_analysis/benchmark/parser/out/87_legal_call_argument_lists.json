@@ -1,0 +1,213 @@
+{
+  "kind": "Program",
+  "sourceFile": "87_legal_call_argument_lists.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "touch",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "1",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "1",
+                  "children": [
+                    {
+                      "kind": "ReturnStatement",
+                      "sourceLine": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "5",
+          "name": "accept",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "5",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "5",
+              "children": [
+                {
+                  "kind": "Parameter",
+                  "sourceLine": "5",
+                  "name": "count",
+                  "children": [
+                    {
+                      "kind": "Type",
+                      "sourceLine": "5",
+                      "value": "int"
+                    }
+                  ]
+                },
+                {
+                  "kind": "Parameter",
+                  "sourceLine": "5",
+                  "name": "label",
+                  "children": [
+                    {
+                      "kind": "Type",
+                      "sourceLine": "5",
+                      "value": "string"
+                    }
+                  ]
+                },
+                {
+                  "kind": "Parameter",
+                  "sourceLine": "5",
+                  "name": "ready",
+                  "children": [
+                    {
+                      "kind": "Type",
+                      "sourceLine": "5",
+                      "value": "boolean"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "5",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "5",
+                  "children": [
+                    {
+                      "kind": "PrintStatement",
+                      "sourceLine": "6",
+                      "children": [
+                        {
+                          "kind": "ArgumentList",
+                          "sourceLine": "6",
+                          "children": [
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "6",
+                              "name": "count"
+                            },
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "6",
+                              "name": "label"
+                            },
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "6",
+                              "name": "ready"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "9",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "9",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "9"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "9",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "9",
+                  "children": [
+                    {
+                      "kind": "CallStatement",
+                      "sourceLine": "10",
+                      "children": [
+                        {
+                          "kind": "Identifier",
+                          "sourceLine": "10",
+                          "name": "touch"
+                        },
+                        {
+                          "kind": "ArgumentList",
+                          "sourceLine": "10"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "CallStatement",
+                      "sourceLine": "11",
+                      "children": [
+                        {
+                          "kind": "Identifier",
+                          "sourceLine": "11",
+                          "name": "accept"
+                        },
+                        {
+                          "kind": "ArgumentList",
+                          "sourceLine": "11",
+                          "children": [
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "11",
+                              "value": 1
+                            },
+                            {
+                              "kind": "StringLiteral",
+                              "sourceLine": "11",
+                              "value": "label"
+                            },
+                            {
+                              "kind": "BooleanLiteral",
+                              "sourceLine": "11",
+                              "value": true
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "kind": "Program",
+  "sourceFile": "14_legal_array_identifier_size.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "2",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "2",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "3",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "3",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "3",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "3",
+                              "name": "size",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "3",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "3",
+                                      "value": 4,
+                                      "type": "int"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "4",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "4",
+                          "value": "double"
+                        },
+                        {
+                          "kind": "ArrayDeclarator",
+                          "sourceLine": "4",
+                          "name": "values",
+                          "children": [
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "4",
+                              "name": "size",
+                              "type": "int"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Assignment",
+                      "sourceLine": "5",
+                      "children": [
+                        {
+                          "kind": "ArrayAccess",
+                          "sourceLine": "5",
+                          "children": [
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "5",
+                              "name": "values"
+                            },
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "5",
+                              "value": 0
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "DecimalLiteral",
+                          "sourceLine": "5",
+                          "value": 1.5,
+                          "type": "double"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "6",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "6",
+                          "value": "double"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "6",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "6",
+                              "name": "first",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "6",
+                                  "children": [
+                                    {
+                                      "kind": "ArrayAccess",
+                                      "sourceLine": "6",
+                                      "type": "double",
+                                      "children": [
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "6",
+                                          "name": "values"
+                                        },
+                                        {
+                                          "kind": "IntLiteral",
+                                          "sourceLine": "6",
+                                          "value": 0
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

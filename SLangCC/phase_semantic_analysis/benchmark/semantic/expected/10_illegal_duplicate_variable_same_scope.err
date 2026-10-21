@@ -1,0 +1,1 @@
+Semantic error in 10_illegal_duplicate_variable_same_scope.sl at line 4: Symbol 'value' already exists in scope 'main'.

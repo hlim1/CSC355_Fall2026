@@ -1,0 +1,2 @@
+Semantic error in 40_illegal_function_call_undeclared.sl at line 3: Undeclared function: 'missing'.
+Semantic error in 40_illegal_function_call_undeclared.sl at line 3: Function call used as a statement must have void return type.

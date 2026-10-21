@@ -1,0 +1,1 @@
+Semantic error in 17_illegal_array_size_non_int_identifier.sl at line 4: Array size identifier must be of type 'int'.

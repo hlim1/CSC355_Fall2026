@@ -1,0 +1,1 @@
+Syntax error in 130_illegal_for_missing_block.sl at line 2: syntax error, unexpected T_SEMICOLON, expecting T_LBRACE

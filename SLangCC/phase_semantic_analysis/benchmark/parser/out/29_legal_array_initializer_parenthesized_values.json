@@ -1,0 +1,194 @@
+{
+  "kind": "Program",
+  "sourceFile": "29_legal_array_initializer_parenthesized_values.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "1",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "1",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "2",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "2",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "ArrayDeclarator",
+                          "sourceLine": "2",
+                          "name": "numbers",
+                          "children": [
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "2",
+                              "value": 2
+                            },
+                            {
+                              "kind": "InitializationList",
+                              "sourceLine": "2",
+                              "children": [
+                                {
+                                  "kind": "BinaryOp",
+                                  "sourceLine": "2",
+                                  "value": "+",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "2",
+                                      "value": 1
+                                    },
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "2",
+                                      "value": 2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "2",
+                                  "value": 3
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "3",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "3",
+                          "value": "boolean"
+                        },
+                        {
+                          "kind": "ArrayDeclarator",
+                          "sourceLine": "3",
+                          "name": "flags",
+                          "children": [
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "3",
+                              "value": 2
+                            },
+                            {
+                              "kind": "InitializationList",
+                              "sourceLine": "3",
+                              "children": [
+                                {
+                                  "kind": "UnaryOp",
+                                  "sourceLine": "3",
+                                  "value": "!",
+                                  "children": [
+                                    {
+                                      "kind": "BooleanLiteral",
+                                      "sourceLine": "3",
+                                      "value": false
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "BinaryOp",
+                                  "sourceLine": "3",
+                                  "value": "<",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "3",
+                                      "value": 1
+                                    },
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "3",
+                                      "value": 2
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "PrintStatement",
+                      "sourceLine": "5",
+                      "children": [
+                        {
+                          "kind": "ArgumentList",
+                          "sourceLine": "5",
+                          "children": [
+                            {
+                              "kind": "ArrayAccess",
+                              "sourceLine": "5",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "5",
+                                  "name": "numbers"
+                                },
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "5",
+                                  "value": 0
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "ArrayAccess",
+                              "sourceLine": "5",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "5",
+                                  "name": "flags"
+                                },
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "5",
+                                  "value": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

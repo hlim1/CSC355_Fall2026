@@ -1,0 +1,2 @@
+Semantic error in 16_illegal_array_size_undefined_identifier.sl at line 3: Undeclared identifier: 'missing'.
+Semantic error in 16_illegal_array_size_undefined_identifier.sl at line 3: Array size identifier must be of type 'int'.

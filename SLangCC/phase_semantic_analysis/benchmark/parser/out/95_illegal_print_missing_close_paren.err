@@ -1,0 +1,1 @@
+Syntax error in 95_illegal_print_missing_close_paren.sl at line 2: syntax error, unexpected T_SEMICOLON, expecting T_RPAREN

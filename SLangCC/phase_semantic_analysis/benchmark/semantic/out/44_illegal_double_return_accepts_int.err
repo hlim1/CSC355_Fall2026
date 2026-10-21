@@ -1,0 +1,1 @@
+Semantic error in 44_illegal_double_return_accepts_int.sl at line 4: Return type mismatch. Expected 'double', but got 'int'.

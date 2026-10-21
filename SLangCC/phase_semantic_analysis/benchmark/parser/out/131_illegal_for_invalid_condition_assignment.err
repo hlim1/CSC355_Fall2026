@@ -1,0 +1,1 @@
+Syntax error in 131_illegal_for_invalid_condition_assignment.sl at line 4: syntax error, unexpected T_ASSIGN, expecting T_SEMICOLON

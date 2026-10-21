@@ -1,0 +1,1 @@
+Syntax error in 35_illegal_array_missing_open_bracket.sl at line 2: syntax error, unexpected T_INT_LITERAL, expecting T_LBRACKET or T_ASSIGN

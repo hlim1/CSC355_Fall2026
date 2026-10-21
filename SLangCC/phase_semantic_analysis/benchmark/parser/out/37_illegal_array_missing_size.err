@@ -1,0 +1,1 @@
+Syntax error in 37_illegal_array_missing_size.sl at line 2: syntax error, unexpected T_RBRACKET, expecting T_INT_LITERAL or T_ID

@@ -1,0 +1,579 @@
+{
+  "kind": "Program",
+  "sourceFile": "124_legal_for_call_clauses.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "tick",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "1",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "1",
+                  "children": [
+                    {
+                      "kind": "ReturnStatement",
+                      "sourceLine": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "5",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "5",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "5"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "5",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "5",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "6",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "6",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "6",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "6",
+                              "name": "i",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "6",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "6",
+                                      "value": 0
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "ForStatement",
+                      "sourceLine": "8",
+                      "children": [
+                        {
+                          "kind": "ForInit",
+                          "sourceLine": "8",
+                          "children": [
+                            {
+                              "kind": "CallStatement",
+                              "sourceLine": "8",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "8",
+                                  "name": "tick"
+                                },
+                                {
+                                  "kind": "ArgumentList",
+                                  "sourceLine": "8"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "ForCondition",
+                          "sourceLine": "8",
+                          "children": [
+                            {
+                              "kind": "BinaryOp",
+                              "sourceLine": "8",
+                              "value": "<",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "8",
+                                  "name": "i"
+                                },
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "8",
+                                  "value": 2
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "ForUpdate",
+                          "sourceLine": "8",
+                          "children": [
+                            {
+                              "kind": "CallStatement",
+                              "sourceLine": "8",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "8",
+                                  "name": "tick"
+                                },
+                                {
+                                  "kind": "ArgumentList",
+                                  "sourceLine": "8"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "Block",
+                          "sourceLine": "8",
+                          "children": [
+                            {
+                              "kind": "StatementList",
+                              "sourceLine": "8",
+                              "children": [
+                                {
+                                  "kind": "PostIncrement",
+                                  "sourceLine": "9",
+                                  "value": "++",
+                                  "children": [
+                                    {
+                                      "kind": "Identifier",
+                                      "sourceLine": "9",
+                                      "name": "i"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "ForStatement",
+                      "sourceLine": "12",
+                      "children": [
+                        {
+                          "kind": "ForInit",
+                          "sourceLine": "12",
+                          "children": [
+                            {
+                              "kind": "BinaryOp",
+                              "sourceLine": "12",
+                              "value": "+",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "12",
+                                  "name": "i"
+                                },
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "12",
+                                  "value": 1
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "ForCondition",
+                          "sourceLine": "12",
+                          "children": [
+                            {
+                              "kind": "BinaryOp",
+                              "sourceLine": "12",
+                              "value": "<",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "12",
+                                  "name": "i"
+                                },
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "12",
+                                  "value": 2
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "ForUpdate",
+                          "sourceLine": "12",
+                          "children": [
+                            {
+                              "kind": "PostIncrement",
+                              "sourceLine": "12",
+                              "value": "++",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "12",
+                                  "name": "i"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "Block",
+                          "sourceLine": "12",
+                          "children": [
+                            {
+                              "kind": "StatementList",
+                              "sourceLine": "12",
+                              "children": [
+                                {
+                                  "kind": "PostIncrement",
+                                  "sourceLine": "13",
+                                  "value": "++",
+                                  "children": [
+                                    {
+                                      "kind": "Identifier",
+                                      "sourceLine": "13",
+                                      "name": "i"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "ForStatement",
+                      "sourceLine": "16",
+                      "children": [
+                        {
+                          "kind": "ForInit",
+                          "sourceLine": "16",
+                          "children": [
+                            {
+                              "kind": "BinaryOp",
+                              "sourceLine": "16",
+                              "value": "+",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "16",
+                                  "name": "i"
+                                },
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "16",
+                                  "value": 1
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "ForCondition",
+                          "sourceLine": "16",
+                          "children": [
+                            {
+                              "kind": "BinaryOp",
+                              "sourceLine": "16",
+                              "value": "<",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "16",
+                                  "name": "i"
+                                },
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "16",
+                                  "value": 2
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "ForUpdate",
+                          "sourceLine": "16",
+                          "children": [
+                            {
+                              "kind": "PostIncrement",
+                              "sourceLine": "16",
+                              "value": "++",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "16",
+                                  "name": "i"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "Block",
+                          "sourceLine": "16",
+                          "children": [
+                            {
+                              "kind": "StatementList",
+                              "sourceLine": "16",
+                              "children": [
+                                {
+                                  "kind": "PostIncrement",
+                                  "sourceLine": "17",
+                                  "value": "++",
+                                  "children": [
+                                    {
+                                      "kind": "Identifier",
+                                      "sourceLine": "17",
+                                      "name": "i"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "ForStatement",
+                      "sourceLine": "20",
+                      "children": [
+                        {
+                          "kind": "ForInit",
+                          "sourceLine": "20",
+                          "children": [
+                            {
+                              "kind": "BinaryOp",
+                              "sourceLine": "20",
+                              "value": "+",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "20",
+                                  "name": "i"
+                                },
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "20",
+                                  "value": 1
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "ForCondition",
+                          "sourceLine": "20",
+                          "children": [
+                            {
+                              "kind": "BinaryOp",
+                              "sourceLine": "20",
+                              "value": "<",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "20",
+                                  "name": "i"
+                                },
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "20",
+                                  "value": 2
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "ForUpdate",
+                          "sourceLine": "20",
+                          "children": [
+                            {
+                              "kind": "PostIncrement",
+                              "sourceLine": "20",
+                              "value": "++",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "20",
+                                  "name": "i"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "Block",
+                          "sourceLine": "20",
+                          "children": [
+                            {
+                              "kind": "StatementList",
+                              "sourceLine": "20",
+                              "children": [
+                                {
+                                  "kind": "PostIncrement",
+                                  "sourceLine": "21",
+                                  "value": "++",
+                                  "children": [
+                                    {
+                                      "kind": "Identifier",
+                                      "sourceLine": "21",
+                                      "name": "i"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "ForStatement",
+                      "sourceLine": "24",
+                      "children": [
+                        {
+                          "kind": "ForInit",
+                          "sourceLine": "24",
+                          "children": [
+                            {
+                              "kind": "BinaryOp",
+                              "sourceLine": "24",
+                              "value": "+",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "24",
+                                  "name": "i"
+                                },
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "24",
+                                  "value": 1
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "ForCondition",
+                          "sourceLine": "24",
+                          "children": [
+                            {
+                              "kind": "BinaryOp",
+                              "sourceLine": "24",
+                              "value": "<",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "24",
+                                  "name": "i"
+                                },
+                                {
+                                  "kind": "IntLiteral",
+                                  "sourceLine": "24",
+                                  "value": 2
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "ForUpdate",
+                          "sourceLine": "24",
+                          "children": [
+                            {
+                              "kind": "PostIncrement",
+                              "sourceLine": "24",
+                              "value": "++",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "24",
+                                  "name": "i"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "Block",
+                          "sourceLine": "24",
+                          "children": [
+                            {
+                              "kind": "StatementList",
+                              "sourceLine": "24",
+                              "children": [
+                                {
+                                  "kind": "PostIncrement",
+                                  "sourceLine": "25",
+                                  "value": "++",
+                                  "children": [
+                                    {
+                                      "kind": "Identifier",
+                                      "sourceLine": "25",
+                                      "name": "i"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

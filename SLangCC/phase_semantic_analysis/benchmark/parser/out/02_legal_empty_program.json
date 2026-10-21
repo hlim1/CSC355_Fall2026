@@ -1,0 +1,11 @@
+{
+  "kind": "Program",
+  "sourceFile": "02_legal_empty_program.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "kind": "Program",
+  "sourceFile": "07_legal_declaration_uses_prior_identifier.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "2",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "2",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "3",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "3",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "3",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "3",
+                              "name": "base",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "3",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "3",
+                                      "value": 2,
+                                      "type": "int"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "4",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "4",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "4",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "4",
+                              "name": "copied",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "4",
+                                  "children": [
+                                    {
+                                      "kind": "Identifier",
+                                      "sourceLine": "4",
+                                      "name": "base",
+                                      "type": "int"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "5",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "5",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "5",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "5",
+                              "name": "doubled",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "5",
+                                  "children": [
+                                    {
+                                      "kind": "BinaryOp",
+                                      "sourceLine": "5",
+                                      "value": "+",
+                                      "type": "int",
+                                      "children": [
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "5",
+                                          "name": "copied",
+                                          "type": "int"
+                                        },
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "5",
+                                          "name": "base",
+                                          "type": "int"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

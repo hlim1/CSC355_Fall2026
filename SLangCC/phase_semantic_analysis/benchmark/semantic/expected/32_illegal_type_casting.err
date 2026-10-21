@@ -1,0 +1,13 @@
+Semantic error in 32_illegal_type_casting.sl at line 8: Cannot cast from type 'int' to type 'boolean'.
+Semantic error in 32_illegal_type_casting.sl at line 10: Cannot cast from type 'double' to type 'int'.
+Semantic error in 32_illegal_type_casting.sl at line 11: Cannot cast from type 'double' to type 'boolean'.
+Semantic error in 32_illegal_type_casting.sl at line 12: Cannot cast from type 'double' to type 'character'.
+Semantic error in 32_illegal_type_casting.sl at line 14: Cannot cast from type 'boolean' to type 'int'.
+Semantic error in 32_illegal_type_casting.sl at line 15: Cannot cast from type 'boolean' to type 'double'.
+Semantic error in 32_illegal_type_casting.sl at line 16: Cannot cast from type 'boolean' to type 'character'.
+Semantic error in 32_illegal_type_casting.sl at line 18: Cannot cast from type 'character' to type 'double'.
+Semantic error in 32_illegal_type_casting.sl at line 19: Cannot cast from type 'character' to type 'boolean'.
+Semantic error in 32_illegal_type_casting.sl at line 21: Cannot cast from type 'string' to type 'int'.
+Semantic error in 32_illegal_type_casting.sl at line 22: Cannot cast from type 'string' to type 'double'.
+Semantic error in 32_illegal_type_casting.sl at line 23: Cannot cast from type 'string' to type 'boolean'.
+Semantic error in 32_illegal_type_casting.sl at line 24: Cannot cast from type 'string' to type 'character'.

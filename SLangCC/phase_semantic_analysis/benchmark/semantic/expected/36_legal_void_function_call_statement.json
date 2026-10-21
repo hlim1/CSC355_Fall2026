@@ -1,0 +1,136 @@
+{
+  "kind": "Program",
+  "sourceFile": "36_legal_void_function_call_statement.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "touch",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1",
+              "children": [
+                {
+                  "kind": "Parameter",
+                  "sourceLine": "1",
+                  "name": "value",
+                  "children": [
+                    {
+                      "kind": "Type",
+                      "sourceLine": "1",
+                      "value": "int"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "2",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "2",
+                  "children": [
+                    {
+                      "kind": "PrintStatement",
+                      "sourceLine": "3",
+                      "children": [
+                        {
+                          "kind": "ArgumentList",
+                          "sourceLine": "3",
+                          "children": [
+                            {
+                              "kind": "inttostring",
+                              "sourceLine": "3",
+                              "type": "string",
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "sourceLine": "3",
+                                  "name": "value",
+                                  "type": "int"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "ReturnStatement",
+                      "sourceLine": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "7",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "7",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "7"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "8",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "8",
+                  "children": [
+                    {
+                      "kind": "CallStatement",
+                      "sourceLine": "9",
+                      "type": "void",
+                      "children": [
+                        {
+                          "kind": "Identifier",
+                          "sourceLine": "9",
+                          "name": "touch"
+                        },
+                        {
+                          "kind": "ArgumentList",
+                          "sourceLine": "9",
+                          "children": [
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "9",
+                              "value": 1,
+                              "type": "int"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

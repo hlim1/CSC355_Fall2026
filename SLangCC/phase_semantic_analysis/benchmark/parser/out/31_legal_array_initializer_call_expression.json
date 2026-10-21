@@ -1,0 +1,124 @@
+{
+  "kind": "Program",
+  "sourceFile": "31_legal_array_initializer_call_expression.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "make",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "int"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "1",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "1",
+                  "children": [
+                    {
+                      "kind": "ReturnStatement",
+                      "sourceLine": "2",
+                      "children": [
+                        {
+                          "kind": "IntLiteral",
+                          "sourceLine": "2",
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "5",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "5",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "5"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "5",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "5",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "6",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "6",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "ArrayDeclarator",
+                          "sourceLine": "6",
+                          "name": "values",
+                          "children": [
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "6",
+                              "value": 1
+                            },
+                            {
+                              "kind": "InitializationList",
+                              "sourceLine": "6",
+                              "children": [
+                                {
+                                  "kind": "CallStatement",
+                                  "sourceLine": "6",
+                                  "children": [
+                                    {
+                                      "kind": "Identifier",
+                                      "sourceLine": "6",
+                                      "name": "make"
+                                    },
+                                    {
+                                      "kind": "ArgumentList",
+                                      "sourceLine": "6"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

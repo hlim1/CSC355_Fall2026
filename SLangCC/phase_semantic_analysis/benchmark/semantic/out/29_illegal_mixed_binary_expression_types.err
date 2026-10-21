@@ -1,0 +1,1 @@
+Semantic error in 29_illegal_mixed_binary_expression_types.sl at line 5: Different types of operands can't be used in the binary operation. Left operand type: 'int', right operand type: 'double'.

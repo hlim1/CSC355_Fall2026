@@ -1,0 +1,1 @@
+Semantic error in 21_illegal_identifier_expression_type_mismatch.sl at line 4: Cannot assign value of type 'string' to type 'int'.

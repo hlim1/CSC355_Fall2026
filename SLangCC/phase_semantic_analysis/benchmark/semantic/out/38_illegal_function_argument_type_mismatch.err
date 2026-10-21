@@ -1,0 +1,1 @@
+Semantic error in 38_illegal_function_argument_type_mismatch.sl at line 9: Argument type mismatch in function call to 'square'. Expected type: 'int', but got type: 'double'.

@@ -1,0 +1,298 @@
+{
+  "kind": "Program",
+  "sourceFile": "20_legal_expression_symbol_resolution.sl",
+  "children": [
+    {
+      "kind": "ExternalList",
+      "sourceLine": "1",
+      "value": 0,
+      "children": [
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "1",
+          "name": "make_int",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "1",
+              "value": "int"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "1"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "2",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "2",
+                  "children": [
+                    {
+                      "kind": "ReturnStatement",
+                      "sourceLine": "3",
+                      "children": [
+                        {
+                          "kind": "IntLiteral",
+                          "sourceLine": "3",
+                          "value": 7,
+                          "type": "int"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "FunctionDeclaration",
+          "sourceLine": "6",
+          "name": "main",
+          "children": [
+            {
+              "kind": "Type",
+              "sourceLine": "6",
+              "value": "void"
+            },
+            {
+              "kind": "ParameterList",
+              "sourceLine": "6"
+            },
+            {
+              "kind": "Block",
+              "sourceLine": "7",
+              "children": [
+                {
+                  "kind": "StatementList",
+                  "sourceLine": "7",
+                  "children": [
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "8",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "8",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "8",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "8",
+                              "name": "value",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "8",
+                                  "children": [
+                                    {
+                                      "kind": "IntLiteral",
+                                      "sourceLine": "8",
+                                      "value": 1,
+                                      "type": "int"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "9",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "9",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "9",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "9",
+                              "name": "copied",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "9",
+                                  "children": [
+                                    {
+                                      "kind": "Identifier",
+                                      "sourceLine": "9",
+                                      "name": "value",
+                                      "type": "int"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "11",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "11",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "ArrayDeclarator",
+                          "sourceLine": "11",
+                          "name": "numbers",
+                          "children": [
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "11",
+                              "value": 2,
+                              "type": "int"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Assignment",
+                      "sourceLine": "12",
+                      "children": [
+                        {
+                          "kind": "ArrayAccess",
+                          "sourceLine": "12",
+                          "children": [
+                            {
+                              "kind": "Identifier",
+                              "sourceLine": "12",
+                              "name": "numbers"
+                            },
+                            {
+                              "kind": "IntLiteral",
+                              "sourceLine": "12",
+                              "value": 0
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "Identifier",
+                          "sourceLine": "12",
+                          "name": "copied",
+                          "type": "int"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "13",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "13",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "13",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "13",
+                              "name": "from_array",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "13",
+                                  "children": [
+                                    {
+                                      "kind": "ArrayAccess",
+                                      "sourceLine": "13",
+                                      "type": "int",
+                                      "children": [
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "13",
+                                          "name": "numbers"
+                                        },
+                                        {
+                                          "kind": "IntLiteral",
+                                          "sourceLine": "13",
+                                          "value": 0
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "Declaration",
+                      "sourceLine": "15",
+                      "children": [
+                        {
+                          "kind": "Type",
+                          "sourceLine": "15",
+                          "value": "int"
+                        },
+                        {
+                          "kind": "DeclaratorList",
+                          "sourceLine": "15",
+                          "children": [
+                            {
+                              "kind": "Declarator",
+                              "sourceLine": "15",
+                              "name": "from_call",
+                              "children": [
+                                {
+                                  "kind": "Initializer",
+                                  "sourceLine": "15",
+                                  "children": [
+                                    {
+                                      "kind": "CallStatement",
+                                      "sourceLine": "15",
+                                      "type": "int",
+                                      "children": [
+                                        {
+                                          "kind": "Identifier",
+                                          "sourceLine": "15",
+                                          "name": "make_int"
+                                        },
+                                        {
+                                          "kind": "ArgumentList",
+                                          "sourceLine": "15"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+Semantic error in 43_illegal_function_argument_expression_type_mismatch.sl at line 8: Different types of operands can't be used in the binary operation. Left operand type: 'int', right operand type: 'double'.
+Semantic error in 43_illegal_function_argument_expression_type_mismatch.sl at line 8: Argument type mismatch in function call to 'use_int'. Expected type: 'int', but got type: ''.
