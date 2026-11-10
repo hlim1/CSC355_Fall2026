@@ -40,7 +40,7 @@ SOURCES = main.cpp \
 all: $(TARGET)
 
 $(TARGET): $(SOURCES)
-	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SOURCES)
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -o $(TARGET) $(SOURCES)
 
 $(YACC_OUT) $(YACC_HDR): $(YACC_SRC)
 	$(YACC) -d -o $(YACC_OUT) $(YACC_SRC)
