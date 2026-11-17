@@ -1,0 +1,11 @@
+announce:
+B1:
+    arg "called"
+    call print, 1
+    return
+
+main:
+B1:
+    call announce, 0
+    return
+

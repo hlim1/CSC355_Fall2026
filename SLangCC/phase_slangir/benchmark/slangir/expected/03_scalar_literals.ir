@@ -1,0 +1,9 @@
+main:
+B1:
+    count = 7
+    ratio = 2.5
+    ready = true
+    letter = 'A'
+    message = "hello"
+    return
+

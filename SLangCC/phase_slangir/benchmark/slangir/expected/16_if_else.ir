@@ -1,0 +1,18 @@
+main:
+B1:
+    value = 4
+    _t0 = value != 0
+    if _t0 goto B4
+
+B3:
+    arg "zero"
+    call print, 1
+    goto B2
+
+B4:
+    arg "nonzero"
+    call print, 1
+
+B2:
+    return
+

@@ -1,0 +1,15 @@
+main:
+B1:
+    value = 8
+    _t0 = value <= 3
+    if _t0 goto B2
+
+B3:
+    _t1 = inttostring value
+    arg _t1
+    call print, 1
+    goto B2
+
+B2:
+    return
+

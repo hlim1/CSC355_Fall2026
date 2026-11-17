@@ -1,0 +1,12 @@
+main:
+B1:
+    _t0 = 3 * 4
+    _t1 = 2 + _t0
+    _t2 = 8 / 2
+    _t3 = _t1 - _t2
+    value = _t3
+    _t4 = inttostring value
+    arg _t4
+    call print, 1
+    return
+

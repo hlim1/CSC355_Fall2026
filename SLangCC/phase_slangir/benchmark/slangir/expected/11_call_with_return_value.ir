@@ -1,0 +1,17 @@
+square:
+B1:
+    param int value
+
+    _t0 = value * value
+    return _t0
+
+main:
+B1:
+    arg 6
+    _t0 = call square, 1
+    result = _t0
+    _t1 = inttostring result
+    arg _t1
+    call print, 1
+    return
+

@@ -1,0 +1,14 @@
+main:
+B1:
+    source = 4
+    destination = 0
+    _t0 = source
+    destination = _t0
+    source = 9
+    _t1 = inttostring destination
+    _t2 = inttostring source
+    _t3 = _t1 + _t2
+    arg _t3
+    call print, 1
+    return
+

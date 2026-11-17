@@ -1,0 +1,43 @@
+main:
+B1:
+    outer = 0
+    inner = 0
+
+B2:
+    _t0 = outer >= 3
+    if _t0 goto B4
+
+B3:
+    inner = 0
+
+B5:
+    _t1 = inner >= 3
+    if _t1 goto B7
+
+B6:
+    _t2 = inner != 1
+    if _t2 goto B8
+
+B9:
+    _t3 = inner + 1
+    inner = _t3
+    goto B5
+
+B8:
+    _t4 = inttostring outer
+    _t5 = inttostring inner
+    _t6 = _t4 + _t5
+    arg _t6
+    call print, 1
+    _t7 = inner + 1
+    inner = _t7
+    goto B5
+
+B7:
+    _t8 = outer + 1
+    outer = _t8
+    goto B2
+
+B4:
+    return
+

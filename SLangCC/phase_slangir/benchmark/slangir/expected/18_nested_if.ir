@@ -1,0 +1,29 @@
+main:
+B1:
+    left = 3
+    right = 7
+    _t0 = left >= right
+    if _t0 goto B2
+
+B3:
+    _t1 = right == 0
+    if _t1 goto B6
+
+B5:
+    _t2 = inttostring left
+    _t3 = inttostring right
+    _t4 = _t2 + _t3
+    arg _t4
+    call print, 1
+    goto B4
+
+B6:
+    arg "unexpected"
+    call print, 1
+
+B4:
+    goto B2
+
+B2:
+    return
+

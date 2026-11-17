@@ -1,0 +1,7 @@
+main:
+B1:
+    arg "stopping"
+    call print, 1
+    call exit, 0
+    return
+

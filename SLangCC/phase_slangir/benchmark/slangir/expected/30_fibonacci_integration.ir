@@ -1,0 +1,52 @@
+fibonacci:
+B1:
+    param int limit
+
+    previous = 0
+    current = 1
+    index = 0
+
+B2:
+    _t0 = index >= limit
+    if _t0 goto B5
+
+B3:
+    _t1 = previous + current
+    next = _t1
+    _t2 = current
+    previous = _t2
+    _t3 = next
+    current = _t3
+    goto B4
+
+B4:
+    _t4 = index + 1
+    index = _t4
+    goto B2
+
+B5:
+    _t5 = previous
+    return _t5
+
+main:
+B1:
+    arg 10
+    _t0 = call fibonacci, 1
+    result = _t0
+    _t1 = result <= 0
+    if _t1 goto B4
+
+B3:
+    _t2 = inttostring result
+    _t3 = "fibonacci" + _t2
+    arg _t3
+    call print, 1
+    goto B2
+
+B4:
+    arg "invalid"
+    call print, 1
+
+B2:
+    return
+

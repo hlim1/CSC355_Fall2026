@@ -1,0 +1,30 @@
+adjust:
+B1:
+    param int value
+
+    _t0 = value + 1
+    result = _t0
+    _t1 = result
+    return _t1
+
+combine:
+B1:
+    param int value
+
+    arg value
+    _t0 = call adjust, 1
+    _t1 = _t0 * 2
+    result = _t1
+    _t2 = result
+    return _t2
+
+main:
+B1:
+    arg 4
+    _t0 = call combine, 1
+    result = _t0
+    _t1 = inttostring result
+    arg _t1
+    call print, 1
+    return
+

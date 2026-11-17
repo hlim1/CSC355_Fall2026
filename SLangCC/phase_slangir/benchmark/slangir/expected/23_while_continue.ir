@@ -1,0 +1,26 @@
+main:
+B1:
+    index = 0
+
+B2:
+    _t0 = index >= 6
+    if _t0 goto B4
+
+B3:
+    _t1 = index + 1
+    index = _t1
+    _t2 = index != 3
+    if _t2 goto B5
+
+B6:
+    goto B2
+
+B5:
+    _t3 = inttostring index
+    arg _t3
+    call print, 1
+    goto B2
+
+B4:
+    return
+

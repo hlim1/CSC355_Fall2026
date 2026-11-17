@@ -1,0 +1,14 @@
+main:
+B1:
+    value = 5
+    _t0 = - value
+    negative = _t0
+    _t1 = + value
+    positive = _t1
+    _t2 = inttostring negative
+    _t3 = inttostring positive
+    _t4 = _t2 + _t3
+    arg _t4
+    call print, 1
+    return
+

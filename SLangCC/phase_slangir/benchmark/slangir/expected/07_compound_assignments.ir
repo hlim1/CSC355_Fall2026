@@ -1,0 +1,12 @@
+main:
+B1:
+    value = 20
+    _t0 = value + 5
+    value = _t0
+    _t1 = value - 3
+    value = _t1
+    _t2 = inttostring value
+    arg _t2
+    call print, 1
+    return
+

@@ -1,0 +1,31 @@
+add:
+B1:
+    param int left
+    param int right
+
+    _t0 = left + right
+    return _t0
+
+twice:
+B1:
+    param int value
+
+    _t0 = value * 2
+    return _t0
+
+main:
+B1:
+    arg 3
+    _t0 = call twice, 1
+    arg 1
+    arg 2
+    _t1 = call add, 2
+    arg _t0
+    arg _t1
+    _t2 = call add, 2
+    result = _t2
+    _t3 = inttostring result
+    arg _t3
+    call print, 1
+    return
+

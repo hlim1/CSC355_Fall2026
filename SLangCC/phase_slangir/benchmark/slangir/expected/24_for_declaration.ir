@@ -1,0 +1,22 @@
+main:
+B1:
+    index = 0
+
+B2:
+    _t0 = index >= 5
+    if _t0 goto B5
+
+B3:
+    _t1 = inttostring index
+    arg _t1
+    call print, 1
+    goto B4
+
+B4:
+    _t2 = index + 1
+    index = _t2
+    goto B2
+
+B5:
+    return
+

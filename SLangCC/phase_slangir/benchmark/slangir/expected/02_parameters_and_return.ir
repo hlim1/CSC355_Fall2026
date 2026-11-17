@@ -1,0 +1,12 @@
+add:
+B1:
+    param int left
+    param int right
+
+    _t0 = left + right
+    return _t0
+
+main:
+B1:
+    return
+

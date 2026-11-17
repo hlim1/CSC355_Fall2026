@@ -1,0 +1,13 @@
+main:
+B1:
+    index = 1
+    values[0] = 10
+    _t0 = values[0]
+    values[index] = _t0
+    _t1 = values[index] + 5
+    values[index] = _t1
+    _t2 = inttostring values[index]
+    arg _t2
+    call print, 1
+    return
+

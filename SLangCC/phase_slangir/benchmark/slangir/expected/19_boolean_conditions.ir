@@ -1,0 +1,28 @@
+main:
+B1:
+    enabled = true
+    blocked = false
+    _t1 = ! blocked
+    _t2 = enabled && _t1
+    _t0 = !_t2
+    if _t0 goto B2
+
+B3:
+    arg "enabled"
+    call print, 1
+    goto B2
+
+B2:
+    _t4 = ! enabled
+    _t5 = _t4 || blocked
+    _t3 = !_t5
+    if _t3 goto B4
+
+B5:
+    arg "disabled"
+    call print, 1
+    goto B4
+
+B4:
+    return
+

@@ -1,0 +1,60 @@
+main:
+B1:
+    left = 2
+    right = 5
+    _t0 = left >= right
+    if _t0 goto B2
+
+B3:
+    arg "lt"
+    call print, 1
+    goto B2
+
+B2:
+    _t1 = left > right
+    if _t1 goto B4
+
+B5:
+    arg "le"
+    call print, 1
+    goto B4
+
+B4:
+    _t2 = left <= right
+    if _t2 goto B6
+
+B7:
+    arg "gt"
+    call print, 1
+    goto B6
+
+B6:
+    _t3 = left < right
+    if _t3 goto B8
+
+B9:
+    arg "ge"
+    call print, 1
+    goto B8
+
+B8:
+    _t4 = left != right
+    if _t4 goto B10
+
+B11:
+    arg "eq"
+    call print, 1
+    goto B10
+
+B10:
+    _t5 = left == right
+    if _t5 goto B12
+
+B13:
+    arg "ne"
+    call print, 1
+    goto B12
+
+B12:
+    return
+

@@ -1,0 +1,36 @@
+main:
+B1:
+    score = 75
+    _t0 = score < 90
+    if _t0 goto B4
+
+B3:
+    arg "A"
+    call print, 1
+    goto B2
+
+B4:
+    _t1 = score < 80
+    if _t1 goto B6
+
+B5:
+    arg "B"
+    call print, 1
+    goto B2
+
+B6:
+    _t2 = score < 70
+    if _t2 goto B8
+
+B7:
+    arg "C"
+    call print, 1
+    goto B2
+
+B8:
+    arg "D"
+    call print, 1
+
+B2:
+    return
+

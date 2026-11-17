@@ -1,0 +1,27 @@
+factorial:
+B1:
+    param int value
+
+    _t0 = value > 1
+    if _t0 goto B2
+
+B3:
+    return 1
+
+B2:
+    _t1 = value - 1
+    arg _t1
+    _t2 = call factorial, 1
+    _t3 = value * _t2
+    return _t3
+
+main:
+B1:
+    arg 5
+    _t0 = call factorial, 1
+    result = _t0
+    _t1 = inttostring result
+    arg _t1
+    call print, 1
+    return
+
