@@ -17,7 +17,7 @@ The SLangIR-phase distribution adds the following files and directories to your 
 - `SLangIR/SLangIR.h`: Provided class declaration and method signatures. Read it but do not modify it.
 - `SLangIR/main.cpp`: Provided driver that runs the earlier compiler phases, generates SLangIR, and writes the result to an `.ir` file. Do not modify it.
 - `SLangIR/Makefile`: Provided build configuration. Do not modify it.
-- `SLangIR/README.md`: Description of the IR design. Use it together with the benchmark outputs to understand the required instruction format.
+- `SLangIR/README.md`: Description of the IR design, with examples of the required instruction format.
 - `shared/slangir-cfg/`: Provided classes for IR programs, functions, basic blocks, and instructions. Use their interfaces without modifying them.
 - `benchmark/slangir/`: **30 benchmark programs**, their expected `.ir` files, and test scripts.
 
@@ -202,12 +202,12 @@ Use the existing `Node` interface to examine the AST:
 
 ### Instruction Format and Numbering
 
-The expected IR text in `benchmark/slangir/expected/` defines the required output format. Read `SLangIR/README.md` for the design, but **follow the benchmark expected files if an example in the README differs**.
+The expected IR text in `benchmark/slangir/expected/` defines the required output format. Read `SLangIR/README.md` for the design and for examples of each instruction form.
 
 Use the following numbering and layout rules:
 
 - Temporary names are `_t0`, `_t1`, `_t2`, and so on, in creation order. Restart the temporary counter for every function.
-- Basic-block labels are `B1`, `B2`, `B3`, and so on, in **reservation order**. Restart the block counter for every function. Although some README examples begin at `B0`, the benchmark outputs begin at `B1`.
+- Basic-block labels are `B1`, `B2`, `B3`, and so on, in **reservation order**. Restart the block counter for every function.
 - Print the function name followed by `:`, then the entry block label `B1:`.
 - Emit parameter instructions at the beginning of `B1`, in parameter order, using `param <type> <name>`.
 - If a function has parameters, call `separateInstructions()` after emitting them to produce the required blank line.
